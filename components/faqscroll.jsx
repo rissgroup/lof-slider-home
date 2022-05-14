@@ -32,7 +32,7 @@ export default function App() {
                 <p className="pr">
                   LOF Platform is a revolutionary fan platform that allows all
                   types of content creators to publish content in many different
-                  forms (images, videos, live streams, music and NFT's).
+                  forms (images, videos, live streams, music and NFTs).
                   Creators can freely choose the fee for users to view their
                   content. The platform will charge a minimal share of the
                   earnings, up to 15% and as little as 5%. <br />
