@@ -239,7 +239,7 @@ export default function termandConditions() {
             
           </div>
         </div>
-        <div className="h-[10%] pt-14">
+        <div className="h-[10%] pt-5 md:pt-14 ">
           <Pagesfooter />
         </div>
       </section>

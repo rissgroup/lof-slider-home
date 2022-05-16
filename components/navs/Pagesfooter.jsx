@@ -13,8 +13,8 @@ export default function Pagesfooter() {
     <>
     
     <div >
-          <div className="flex flex-row">
-            <div className="basis-1/4 flex gap-3 pl-5">
+          <div className="flex flex-col md:flex-row">
+            <div className="flex justify-center gap-3 pl-5 basis-full md:basis-1/4 md:justify-start">
               <a href="" className="">
                 <Image src={twit}
                 width={14}
@@ -43,8 +43,8 @@ export default function Pagesfooter() {
                 height={14} />
               </a>
             </div>
-            <div className="basis-2/4  ">
-              <ul className=" gap-6 flex justify-center text-white text-xs font-medium hind " >
+            <div className="basis-2/4 ">
+              <ul className="flex justify-center gap-6 text-xs font-medium text-white hind" >
                 <li >
                   <Link href="/termandConditions">
                     <a>Term and Condition</a>
