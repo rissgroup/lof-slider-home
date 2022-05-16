@@ -52,7 +52,7 @@ export default function Lofplatform() {
   return (
     <>
       <Head>
-        
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
       </Head>
       <div className="bg-dark">
         <div className="container-fluid ">
@@ -61,7 +61,7 @@ export default function Lofplatform() {
               <h1 className="text-2xl monofont leading-5 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-xs tracking-normal leading-6 mx-auto w-7/12 pt-8 font-light ">
+              <p className="text-xs tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -70,7 +70,7 @@ export default function Lofplatform() {
             </div>
           </div>
 
-          {/* *******************Slider Start*********** */}
+          {/* ******************* desktop Slider Start*********** */}
         
      <Swiper
      
@@ -79,12 +79,13 @@ export default function Lofplatform() {
         mousewheel={true}
         centeredSlides
         slideToClickedSlide
+        
         loop    
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         modules={[Pagination, Mousewheel]}
-        className="mySwiper pl-swiper swiper-full-mobile"
+        className="mySwiper pl-swiper swiper-full-mobile hidden md:block"
       
       
       >
@@ -96,7 +97,55 @@ export default function Lofplatform() {
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide>
         
       </Swiper>
-          {/* *******************Slider End*********** */}
+          {/* *******************desktop  Slider End*********** */}
+          {/* *******************Mobile Slider Start*********** */}
+        
+     <Swiper
+     navigation
+     slidesPerView={1}
+     spaceBetween={30}
+     mousewheel={true}
+     centeredSlides
+     slideToClickedSlide
+     loop    
+    //  pagination={{
+    //    clickable: true,
+    //  }}
+     modules={[Pagination, Mousewheel, Navigation]}
+     className="mySwiper pl-swiper swiper-full-mobile block md:hidden"
+     onSlideChange={() => {
+      if (slide1 == slide1) {
+        ImageOneClick();
+      }
+      if (slide2 == slide2) {
+        ImageTwoClick();
+      }
+      if (slide3 == slide3) {
+        ImageThreeClick();
+      }
+      if (slide4 == slide4) {
+        ImageFourClick();
+      }
+      if (slide5 == slide5) {
+        ImageFiveClick();
+      }
+      if (slide6 == slide6) {
+        ImageFiveClick();
+        alert("Thank you StackOverflow, you're a very big gift for all programmers!");
+      }
+     }}
+   
+   
+   >
+     <SwiperSlide  className="pl-slide" onClick={ImageOneClick}><img src='/assets/pl-slider/Mobile.png' id="slide1" alt="" /></SwiperSlide>
+     <SwiperSlide id="slide2" className="pl-slide" onClick={ImageTwoClick}><img src="/assets/pl-slider/Mobilehome4.png"  alt="" /></SwiperSlide>
+     <SwiperSlide id="slide3" className="pl-slide"  onClick={ImageThreeClick}><img src="/assets/pl-slider/Mobilehome6.png" alt="" /></SwiperSlide>
+     <SwiperSlide id="slide4" className="pl-slide" onClick={ImageFourClick}><img src="/assets/pl-slider/Mobilehome5.png"  alt="" /></SwiperSlide>
+     <SwiperSlide id="slide5" className="pl-slide" onClick={ImageFiveClick}><img src="/assets/pl-slider/Mobilehome7.png"  alt="" /></SwiperSlide>
+     <SwiperSlide id="slide6" className="pl-slide" onClick={ImageFiveClick}><img src="/assets/pl-slider/Mobilehome7.png"  alt="" /></SwiperSlide>
+     
+   </Swiper>
+       {/* ******************* Mobile Slider End*********** */}
         </div>
       </div>
     </>
