@@ -48,6 +48,29 @@ a {
 * {
   box-sizing: border-box;
 }
+/* ************ Navbar css start ************ */
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    color: #fff;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+/* ************ Navbar css end ************ */
+/* ************ Footer  css end ************ */
+.txt-botm {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	z-index: 8;
+  }
+/* ************ Fotter  css end ************ */
 
 /* **************** Home main slider start ********** */
 .parallax-bg {

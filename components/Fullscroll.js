@@ -14,16 +14,19 @@ import Lofplatform from "./Lofplatform";
 import Become from "./Become";
 import Whylof from "./Whylof";
 import Faq from "./Faq";
+import Nav from "./navs/nav";
 
 
 
 // import required modules
 import { Parallax, Pagination, Navigation, Mousewheel } from "swiper";
+import Footer from "./navs/Footer";
 
 
 export default function Fullscroll() {
   return (
     <>
+    <Nav/>
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -77,6 +80,7 @@ export default function Fullscroll() {
             <Faqscroll/>
         </SwiperSlide> */}
       </Swiper>
+      <Footer/>
     </>
   );
 }
