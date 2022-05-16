@@ -32,10 +32,10 @@ export default function Fullscroll() {
         }}
         speed={600}
         parallax={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        navigation={false}
         modules={[Parallax, Pagination, Navigation, Mousewheel]}
         className="mySwiper faq-sw"
         mousewheel={true}

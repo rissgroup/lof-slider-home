@@ -7,7 +7,7 @@ export default function Become() {
     <>
     <div className="bg-dark hero">
       <div className="container-fluid ">
-        <div className="flex flex-row text-white pt-28">
+        <div className="flex flex-col md:flex-row text-white pt-28">
           <div className="basis-1/4 my-auto">
             <h1 className="text-6xl monofont">
               Become A <br />

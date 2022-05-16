@@ -20,10 +20,25 @@ export default function App() {
         spaceBetween={10}
         pagination={{
           clickable: true,
+          breakpoints: {
+            640: {
+              slidesPerView: 1,
+              // spaceBetween: 20,
+            },
+            // 768: {
+            //   slidesPerView: 4,
+            //   spaceBetween: 40,
+            // },
+            // 1024: {
+            //   slidesPerView: 5,
+            //   spaceBetween: 50,
+            // },
+          }
         }}
         mousewheel={true}
         modules={[Pagination, Mousewheel]}
         className="mySwiper faq-sw"
+        
       >
         <SwiperSlide className="faq-slide">
 
