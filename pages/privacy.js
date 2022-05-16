@@ -5,24 +5,25 @@ import Pagesfooter from "../components/navs/Pagesfooter";
 export default function privacy() {
   return (
     <>
-      <section className="for-page-bg bg-fixed bg-no-repeat bg-cover bg-center h-screen">
+      <section className="h-screen bg-fixed bg-center bg-no-repeat bg-cover for-page-bg">
         <div className="h-[10%]">
           <Pagesnav/>
         </div>
         {/* <Nav/> */}
         <div className=" h-[80%] overflow-hidden text-white px-[7%]">
+
           <div className="md:pt-5">
             <h1 className="py-5 text-center text-lg md:text-4xl monofont ">
               Privacy <span className="pink-color">Policy</span>
             </h1>
           </div>
 
-          <div className="   overflow-y-auto h-full  text-white  scroll-bar-hide ">
+          <div className="h-full overflow-y-auto text-white  scroll-bar-hide">
       {/* privacy data start */}
     
      <section className='for-policy-txt'>
      <div>
-         <div className='mainPrivacy-txt text-white'>
+         <div className='text-white mainPrivacy-txt'>
             <p>This Privacy Policy will explain how our Company uses the personal data we collect from you when you use our website.</p>
             <br />
             <p>At Lonelyfans we highly prioritize protecting your personal information and being transparent about what we do with it. We are committed to using your personal information following all applicable laws concerning the protection of personal information and ensuring that you understand your data rights and freedoms.</p>
@@ -41,8 +42,8 @@ export default function privacy() {
          </div>
      </div>
      <div>
-         <div className='defination-part pt-5 text-white'>
-            <h4 className='pb-4 pt-10'>Definitions</h4>
+         <div className='pt-5 text-white defination-part'>
+            <h4 className='pt-10 pb-4'>Definitions</h4>
             <p>Our data protection policy should be legible and understandable for the general public, as well as for our Users and business partners. To ensure this, we would like to first explain the terminology used. In this data protection declaration, we use, inter alia, the following terms:</p>
          <ul>
              <li><span>Data Subject or Data Principal</span> - is any identified or identifiable natural person, whose personal data is collected and processed by us.</li>
@@ -59,7 +60,7 @@ export default function privacy() {
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-4" >Compliance</h4>
             <p>The processing of personal data will be in line with these main international legislations:</p>
 <ul>
@@ -76,38 +77,38 @@ Our privacy notice tells you what personal data (PD) and non-personal data (NPD)
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Automated individual decision-making and profiling</h4>
             <p>You will have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning you or similarly significantly affects you.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Filing a complaint with authorities</h4>
             <p>You have the right to file a complaint with supervisory authorities if your information has not been processed in compliance with any applicable data protection law. If the supervisory authorities fail to address your complaint properly, you may have the right to a judicial remedy.</p>
          </div>
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Use Cases</h4>
             <p>Please take a moment to understand which use case(s) set out in this Privacy Policy apply to you:</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-1 text-white'>
+         <div className='pt-1 text-white defination-part'>
            <h3 >Website Visitor</h3>
             <p>You are a “Website Visitor” by definition when you visit our website and any other eventual subdomains associated with our principal domain. As a website visitor, we use your navigation statistical information for our own purposes, primarily for improving the use of our website and to provide you with more relevant content.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-1 text-white'>
+         <div className='pt-1 text-white defination-part'>
            <h3 >User</h3>
             <p>You become a “User” if you create an account on our website/platform in order to benefit of our services. If you are a User, our primary purpose of using your personal data is for providing the service and the services to you. We retain your personal information for a limited time and for limited purposes, such as to make it easier for you to re-join our service in the future or to wish you offers for services that we think you may be interested in.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">What data do we collect?</h4>
             <p>Upon acquisition of our services, we may ask for your crypto wallet address, for full name and a valid e-mail address, which will be included in our mailing list, for future maintenance, updates, and eventual marketing promotions. </p>
              <br />   
@@ -160,36 +161,36 @@ The source of the usage data is our analytics tracking system. This usage data m
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >How do we collect your data?</h4>
             <p>You directly provide Lonelyfans with most of the data collected. We collect data and process data when you avail our products and services.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">What is the purpose of collection?</h4>
             <p>Our commercial purpose, by reference to the subject matter of our business, is provision of cryptocurrency services. Reports in the financial domain and other complementary services, and the new rules of personal data protection (GDPR, CCPA, etc.) are part of this context.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Complementary purposes</h4>          
          </div>
      </div>
      <div>
-         <div className='defination-part pt-3 text-white'>
+         <div className='pt-3 text-white defination-part'>
            <h3 >To improve our services</h3>
             <p>We always want to offer you the best online experience and for this we can collect and use certain information about your behavior and preferences when using the website and platform, or we can conduct market research directly or through partners.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-3 text-white'>
+         <div className='pt-3 text-white defination-part'>
            <h3 >To improve your marketing activity</h3>
             <p>We may want to keep you informed about the best offers for the services you may be interested in.  In this sense, we may send you any type of message (such as: email / SMS / phone / mobile push / web push, etc.) containing general and thematic information about products or services, information on offers or promotions, as well as other commercial communications.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-3 text-white'>
+         <div className='pt-3 text-white defination-part'>
            <h3 >To defend our legitimate interests</h3>
             <p>There may be situations in which we use or transmit information to protect our rights and our commercial activity. These situations may include:</p>
         <ul>
@@ -207,25 +208,25 @@ The source of the usage data is our analytics tracking system. This usage data m
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >How do we store your data?</h4>
             <p>Lonelyfans securely stores your data at third-party dedicated server located in the United States of America. We do not use the information you provide to make any automated decisions that might affect you.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >Our Legal Basis for Collecting and Processing Personal Data</h4>
             <p>Our legal basis for collecting and processing your personal data when you buy request our services is based on the necessity for the performance of a contract or to take steps to enter into a contract.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >What Happens If You Don’t Give Us Your Personal Data</h4>
             <p>If you do not provide us with enough Personal Data, we may not be able to provide you with our services. However, you can access and use some parts of our website (not our platform) without giving us your Personal Data.</p>
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >What are your data protection rights?</h4>
             <p>Lonelyfans would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
             <br />
@@ -241,7 +242,7 @@ The source of the usage data is our analytics tracking system. This usage data m
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >Cookies Policy</h4>
             <p>Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our websites, we will collect information from you automatically through cookies or similar technology</p>
             <br />
@@ -249,7 +250,7 @@ The source of the usage data is our analytics tracking system. This usage data m
          </div>
      </div>
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >How do we use cookies?</h4>
             <p>Lonelyfans uses cookies in a range of ways to improve your experience on our website, including:</p>
         <ul>
@@ -261,7 +262,7 @@ The source of the usage data is our analytics tracking system. This usage data m
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >What types of cookies do we use?</h4>
             <p>There are several different types of cookies, however, our website uses:</p>
         <ul>
@@ -284,7 +285,7 @@ The source of the usage data is our analytics tracking system. This usage data m
 
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">How to manage cookies</h4>
            <p>You can set your browser not to accept cookies, allaboutcookies.org tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.</p>
          
@@ -292,35 +293,35 @@ The source of the usage data is our analytics tracking system. This usage data m
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Privacy policies of other websites</h4>
           <p>The Lonelyfans website/platform contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.</p>
          </div>
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Changes to our privacy policy</h4>
          <p>Lonelyfans keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 17th of March 2022.</p>
           </div>
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">How to contact us</h4>
             <p>If you have any questions about Lonelyfans’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us at contact@lofcrypto.com.</p>
            </div>
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >Sharing Information with Affiliates and Other Third Parties</h4>
             <p>We do not sell or rent your PD to third-parties for marketing purposes. You understand, and we undertake, that we will provide your PD through our platform strictly to the corporate stakeholders that are using our platform. However, for data aggregation purposes we may use your non PD, which might be sold to other parties at our discretion. Any such data aggregation would not contain any of your PD. We may provide your PD to third-party service providers we hire to provide services to us. These third-party service providers may include but are not limited to: payment processors, web analytics companies, advertising networks, call centers, data management services, help desk providers, accountants, law firms, auditors, shopping cart and email service providers, and shipping companies.</p>
              </div>
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Retaining and Destroying Your PD</h4>
            <p>We only retain the personal information collected from a User for as long as the User’s account is active on our platform, or otherwise for a limited period of time as long as we need it to fulfill the purposes for which we have initially collected it, unless otherwise required by law.
             <br/>
@@ -332,7 +333,7 @@ The source of the usage data is our analytics tracking system. This usage data m
      </div>
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3" >California Privacy Rights</h4>
           <p>In addition to the rights provided for above, if you are a California or US resident, you have the right to request information from us regarding whether we share certain categories of your personal information with third parties for the third parties' direct marketing purposes. To the extent we share your personal information in this way, you may receive the following information: 
         <br/><span>(a) </span>the categories of information we disclosed to third parties for the third parties' direct marketing purposes during the preceding calendar year; and
@@ -358,7 +359,7 @@ The source of the usage data is our analytics tracking system. This usage data m
 
      
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Transferring PD From the European Economic Area</h4>
            <p>PD that we collect from you may be stored, processed, and transferred between any of the countries in which we operate. The European Union and the UK has not found the United States and some other countries to have an adequate level of protection of PD under Article 45 of the GDPR. Our company relies on derogations for specific situations as defined in Article 49 of the GDPR. For European Union customers and users, with your consent, your PD may be transferred outside the European Union to the United States  and or other countries. We will use your PD to provide the services, and/or information you request from us to perform a contract with you or to satisfy a legitimate interest of our company in a manner that does not outweigh your freedoms and rights. Wherever we transfer, process or store your PD, we will take reasonable steps to protect it. We will use the information we collect from you in accordance with our privacy notice. By using our website, services, or products, you agree to the transfers of your PD described within this section.</p>
     
@@ -367,7 +368,7 @@ The source of the usage data is our analytics tracking system. This usage data m
     
 
      <div>
-         <div className='defination-part pt-10 text-white'>
+         <div className='pt-10 text-white defination-part'>
            <h4 className="pb-3">Changes to Our Privacy Policy</h4>
           <p>We reserve the right to change this privacy notice at any time. If our company decides to change this privacy notice, we will post those changes on our website so that our users and customers are always aware of what information we collect, use, and disclose. If at any time we decide to disclose or use your PD in a method different from that specified at the time it was collected, we will provide advance notice by email (sent to the email address on file in your account). 
 <br/><br/>Otherwise we will use and disclose our users’ and customers’ PD in agreement with the privacy notice in effect when the information was collected. In all cases, your continued use of our website, services, and products after any change to this privacy notice will constitute your acceptance of such change.
@@ -389,7 +390,7 @@ The source of the usage data is our analytics tracking system. This usage data m
           {/*main data div */}
         </div>
 
-        <div className="h-[10%] pt-14">
+        <div className="h-[10%] pt-5 md:pt-14">
           <Pagesfooter />
         </div>
       </section>

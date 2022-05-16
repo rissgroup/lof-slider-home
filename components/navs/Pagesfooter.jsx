@@ -13,6 +13,7 @@ export default function Pagesfooter() {
     <>
     
     <div >
+
           <div className="flex flex-row">
             <div className="basis-1/4 flex gap-3 md:pl-5  ">
               <a href="" className="">
@@ -43,8 +44,8 @@ export default function Pagesfooter() {
                 height={14} />
               </a>
             </div>
-            <div className="basis-2/4  ">
-              <ul className=" gap-6 flex justify-center text-white text-xs font-medium hind " >
+            <div className="basis-2/4 ">
+              <ul className="flex justify-center gap-6 text-xs font-medium text-white hind" >
                 <li >
                   <Link href="/termandConditions">
                     <a>Term and Condition</a>

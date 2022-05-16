@@ -5,29 +5,31 @@ import Pagesnav from "../components/navs/Pagesnav";
 export default function riskpolicy() {
   return (
     <>
-      <section className="for-page-bg bg-fixed bg-no-repeat bg-cover bg-center h-screen">
+      <section className="h-screen bg-fixed bg-center bg-no-repeat bg-cover for-page-bg">
         <div className="h-[10%]">
           <Pagesnav/>
         </div>
         <div className=" h-[80%] overflow-hidden text-white px-[6%]">
           {/* ************** Heading div *************** */}
+
           <div className="md:pt-5">
             <h1 className="pb-5  pt-5 text-center text-lg md:text-4xl monofont">
+
               Responsible Risk{" "}
               <span className="pink-color"> Disclosure Policy</span>
             </h1>
           </div>
           {/* ********************* Main data div ******************** */}
-          <div className="   overflow-y-auto h-full  text-white RiskPolicyDiv scroll-bar-hide">
+          <div className="h-full overflow-y-auto text-white  RiskPolicyDiv scroll-bar-hide">
 
-          <div sm={12} className='text-light py-8'>
+          <div sm={12} className='py-8 text-light'>
             <p>This document provides you with information about the risks associated with investment products in which you may invest through the services provided to you by Lonelyfans.
 Cryptocurrency is a digital representation of value that functions as a medium of exchange, a unit of account, or a store of value, but it does not have legal tender status. Cryptocurrencies are sometimes exchanged for FIAT currencies around the world, but they are not generally backed or supported by any government or central bank. Their value is completely derived by market forces of supply and demand, and they are more volatile than traditional currencies. The value of cryptocurrency may be derived from the continued willingness of market participants to exchange fiat currency for cryptocurrency, which may result in the potential for permanent and total loss of value of a particular cryptocurrency should the market for that cryptocurrency disappear. </p>
            </div>
           
 
-          <div sm={12} className='text-light py-4'>
-            <h3 className='PinkColor fweight pb-3 '>Regulatory Landscape</h3>
+          <div sm={12} className='py-4 text-light'>
+            <h3 className='pb-3 PinkColor fweight '>Regulatory Landscape</h3>
             <p>Cryptocurrencies currently face an uncertain regulatory landscape in many jurisdictions. In addition, many cryptocurrency derivatives are regulated by the provisions of national and supra-national (i.e. EU) securities legislation; moreover, some state securities regulators have cautioned that many initial coin offerings are likely to fall within the definition of a security and subject to their respective securities laws. One or more jurisdictions may, in the future, adopt laws, regulations or directives that affect cryptocurrency networks  and their users. Such laws, regulations or directives may impact the price of cryptocurrencies and their acceptance by users, merchants and service providers.
 <br/>
 Legislative and regulatory changes or actions at the state, federal, or international level may adversely affect the use, transfer, exchange, and value of cryptocurrency.
@@ -39,13 +41,13 @@ Any individual cryptocurrency may change or otherwise cease to operate as expect
 </p>
           </div>
 
-          <div sm={12} className='text-light py-12'>
+          <div sm={12} className='py-12 text-light'>
             <h3 className='PinkColor fweight'>Blockchain Risks</h3>
            <p>Since blockchain is an independent public peer-to peer network and is not controlled in any way or manner by Lonelyfans, and we shall not be responsible for any failure and/or mistake and/or error and/or breach which shall occur in the Binance Smart Chain blockchain ecosystem or in any other networks in which the Lonelyfans Token may be used and/or traded. You will be bound and subject to any change and/or amendments in the blockchain system and subject to any applicable law which may apply to the blockchain. We make no representation or warranty of any kind, express or implied, statutory or otherwise, regarding the blockchain functionality nor for any breach of security in the blockchain.</p>
           </div>
 
 
-          <div sm={12} className='text-light py-4'>
+          <div sm={12} className='py-4 text-light'>
             <h3 className='PinkColor fweight'>Technology</h3>
             <p>The relatively new and rapidly evolving technology underlying cryptocurrencies introduces unique risks. For example, a unique private key is required to access, use or transfer a cryptocurrency on a blockchain or distributed ledger. The loss, theft or destruction of a private key may result in an irreversible loss of cryptocurrency associated with this private key. The ability to participate in forks could also have implications for investors. For example, a market participant holding a cryptocurrency position through a cryptocurrency exchange may be adversely impacted if the exchange does not allow its customers to participate in a fork that creates a new product. <br/>
             The security of the Lonelyfans ecosystem, and associated core components, is a top priority for Lonelyfans. Our Proof of Stake network is secured by the already proven Binance Smart Chain ecosystem technology and provides valuable services for business or private use. 
@@ -55,12 +57,12 @@ Any individual cryptocurrency may change or otherwise cease to operate as expect
 </p>
           </div>
 
-          <div sm={12} className='text-light py-12'>
+          <div sm={12} className='py-12 text-light'>
             <h3 className='PinkColor fweight'>Cybersecurity</h3>
             <p>The cybersecurity risks of cryptocurrencies and related “wallets” or spot exchanges include hacking vulnerabilities and a risk that publicly distributed ledgers may not be immutable. A cybersecurity event could result in a substantial, immediate and irreversible loss for market participants that trade cryptocurrencies. Even a minor cybersecurity event in a cryptocurrency is likely to result in downward price pressure on that product and potentially other cryptocurrencies.  </p>
           </div>
 
-          <div sm={12} className='text-light py-4'>
+          <div sm={12} className='py-4 text-light'>
             <h3 className='PinkColor fweight'>Access risks</h3>
             <p>There are a series of inherent risks with the use of the mobile and/or web-based trading technology such as latency in the prices provided, and other issues that are a result of connectivity (including, without limitation, the use of mobile networks). Prices displayed on the Trading Platform are solely an indication of the executable rates and may not reflect the actual executed or executable price of an order.
                 <br/>The Platform may utilize public communication network circuits for the transmission of messages. Lonelyfans shall not be liable for any and all circumstances in which you experience a delay in price quotation or an inability to trade caused by network transmission problems or restrictions or any other problems outside our direct control, which include but are not limited to the strength of the mobile signal, network latency, or any other issues that may arise between you and any internet service provider, phone service provider or any other service provider. Please note further that some of the features available on the Trading Platform may not be available on any mobile application.
@@ -70,7 +72,7 @@ Any individual cryptocurrency may change or otherwise cease to operate as expect
           </div>
 
 
-        <div sm={12} className='text-light py-12'>
+        <div sm={12} className='py-12 text-light'>
             <h3 className='PinkColor fweight'>Reporting a Security Issue</h3>
             <p>In case of any security issue is identified, you are required to send us an email.<br/>
 What to include:</p>
@@ -91,7 +93,7 @@ What to include:</p>
       </ul>
         
         </div>
-        <div sm={12} className='text-light py-4'>
+        <div sm={12} className='py-4 text-light'>
             <h3 className='PinkColor fweight'>Coordinated Responsible Disclosure Policy</h3>
             <p>We ask security researchers to keep vulnerabilities and communications around vulnerability submissions private and confidential until a patch is developed to protect the LOF Token and its users.
             <br/>Please do:</p>
@@ -104,7 +106,7 @@ What to include:</p>
 
             </div>
 
-            <div sm={12} className='text-light py-12'>
+            <div sm={12} className='py-12 text-light'>
             <h3 className='PinkColor fweight'>Responsible Disclosure Process</h3>
             <p>1.	Once a security report is received, the Lonelyfans team verifies the issue and establishes the potential threat
 <br/>2.	Patches to address the issues will be prepared and tested 
@@ -112,7 +114,7 @@ What to include:</p>
 </p>
             </div>
             
-            <div sm={12} className='text-light py-2'>
+            <div sm={12} className='py-2 text-light'>
             <h3 className='PinkColor fweight'>Out of scope</h3>
             <ul>
               <li>Scam & phishing attempts involving Lonelyfans services</li>
@@ -124,12 +126,12 @@ What to include:</p>
               <li>HTTP error codes/pages</li>
             </ul>
             </div>
-            <div sm={12} className='text-light py-12'>
+            <div sm={12} className='py-12 text-light'>
             <h3 className='PinkColor fweight'>Project risk</h3>
             <p>In many projects, the value and stability of the cryptocurrency largely depends on the skill and diligence of the project team behind the cryptocurrency or the Token Sale Agreements of any kind. The project underlying an ICO might not be realized, which would ultimately make the cryptocurrency worthless.</p>
             </div>
 
-            <div sm={12} className='text-light py-4 pb-5'>
+            <div sm={12} className='py-4 pb-5 text-light'>
             <h3 className='PinkColor fweight'>Contact Us</h3>
             <p>Get in touch with us at contact@lofcrypto.com. Whether you want to submit an issue, a recommendation or have security related topics to bring up, we’re happy to hear from you.
 <br/>
@@ -142,7 +144,7 @@ In order to protect the Lonelyfans ecosystem, we request that you not post or sh
 
           </div>
         </div>
-        <div className="h-[10%] pt-14">
+        <div className="h-[10%] pt-5 md:pt-14">
           <Pagesfooter />
         </div>
       </section>
