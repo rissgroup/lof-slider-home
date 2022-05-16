@@ -6,13 +6,13 @@ export default function Faq() {
     <>
       <div className="bg-dark">
         <div className="container-fluid  ">
-          <div className="flex  text-white pt-28">
+          <div className="flex flex-col md:flex-row  text-white pt-28">
             <div className=" basis-6/12">
               <h1 className="pop text-[150px] font-black stroke-white stroke-[10px]">
                 
                 FAQ
               </h1>
-              <h6 className="momofont text-5xl font-bold">
+              <h6 className="momofont text-3xl md:text-5xl font-bold flex justify-center md:justify-start">
                 For <span className="pink-color"> Content creators</span>
               </h6>
             </div>

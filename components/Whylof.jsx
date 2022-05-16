@@ -9,7 +9,7 @@ export default function Whylof() {
     <>
       <div className="bg-dark">
         <div className="container-fluid ">
-          <div className="flex flex-row text-white pt-28">
+          <div className="flex flex-col md:flex-row text-white pt-28">
             <div className="basis-full text-center ">
               <h1 className="monofont text-4xl">Why LOF?</h1>
             </div>
@@ -17,7 +17,7 @@ export default function Whylof() {
         </div>
 
         <div className="container-fluid">
-          <div className="flex flex-row text-white my-5 gap-10">
+          <div className="flex flex-col md:flex-row text-white my-2 md:my-5  gap-2 md:gap-10">
             <div className="basis-2/4 p-5 card-bg">
               <div className="flex pb-3">
                 <Image src={Money} width={50} height={50}  alt="Picture of the author" />
@@ -46,11 +46,11 @@ export default function Whylof() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row text-white gap-10">
+          <div className="flex flex-col md:flex-row text-white gap-2 md:gap-10">
             <div className="basis-2/4 p-5 card-bg">
               <div className="flex pb-3">
                 <Image src={followers} width={50} height={50}  alt="Picture of the author" />
-                <h6 className="my-auto hind text-lg font-bold" style={{ paddingLeft: "2rem" }}>
+                <h6 className="my-auto hind text-lg font-bold"  style={{ paddingLeft: "2rem" }}>
                   Effortless Payments in Time
                 </h6>
               </div>
