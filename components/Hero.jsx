@@ -62,7 +62,7 @@ export default function Hero() {
       
       
       /> */}
-        <img src="/assets/bachi.png" alt="Picture of the author" />
+        <img src="/assets/Bachi.png" alt="Picture of the author" />
        
     </div>
     <div className="basis-1/3 pt-5 md:pt-40 pl-0 md:pl-20">

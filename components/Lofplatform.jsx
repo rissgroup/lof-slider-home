@@ -71,38 +71,9 @@ export default function Lofplatform() {
           </div>
 
           {/* *******************Slider Start*********** */}
-         {/* <Pls/> */}
-         {/* <Swiper
-      
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={120}
-      slidesPerView={5}
-     
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-      className="swiper-full-mobile"
-      slideToClickedSlide
-    centeredSlides
-    loop
-    >
-      <SwiperSlide onClick={ImageOneClick} className='sw-sliderss'><img src='/assets/pl-slider/Mobile.png'  alt="" />
-      </SwiperSlide>
-      <SwiperSlide className='sw-sliderss'><img src="/assets/pl-slider/Mobilehome4.png" onClick={ImageTwoClick} alt="" />
-      </SwiperSlide>
-      <SwiperSlide className='sw-sliderss'><img src="/assets/pl-slider/Mobilehome6.png" onClick={ImageThreeClick} alt="" />
-     </SwiperSlide>
-      <SwiperSlide className='sw-sliderss'><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" />
-      
-      </SwiperSlide>
-      <SwiperSlide className='sw-sliderss'><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" />
-      
-      </SwiperSlide>
-      
-      <SwiperSlide className='sw-sliderss'><img src="/assets/pl-slider/Mobilehome8.png" onClick={ImageSixClick} alt="" /></SwiperSlide>
-      
-     
-    </Swiper> */}
+        
      <Swiper
+     
         slidesPerView={5}
         spaceBetween={30}
         mousewheel={true}
@@ -114,6 +85,8 @@ export default function Lofplatform() {
         }}
         modules={[Pagination, Mousewheel]}
         className="mySwiper pl-swiper swiper-full-mobile"
+      
+      
       >
         <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Mobile.png' onClick={ImageOneClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome4.png" onClick={ImageTwoClick} alt="" /></SwiperSlide>
