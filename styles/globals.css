@@ -139,15 +139,6 @@ a {
 }
 /* **************** Pl slider & section css End ********** */
 
-.home-txt{
-	line-height: 30px !important;
-}
-/* .bachi-bg{
-	background-image: url(../public/assets/Bachi.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	 
-} */
 
 /* **************** Faq slider & section css Start ********** */
 .right-sec{
@@ -633,3 +624,37 @@ a {
     backdrop-filter: blur(10px);
   }
   /* ************************* mobile-nav  css End ************** */
+
+
+
+
+
+
+
+  /* ************************* media-qurries  css start ************** */
+ 
+ 
+ 
+ 
+  /* *************************BecomeAC  media-qurries css start ************** */
+  @media only screen and (max-width: 767px) {
+	.box > img {
+		height: calc(50% - 0vh);
+	}
+	.box:hover > img {
+		height: 50vh;
+	}
+
+  }
+ 
+  /* *************************BecomeAC media-qurries  css start ************** */
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* ************************* media-qurries  css End ************** */
