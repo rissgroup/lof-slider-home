@@ -11,8 +11,9 @@ export default function privacy() {
         </div>
         {/* <Nav/> */}
         <div className=" h-[80%] overflow-hidden text-white px-[7%]">
-          <div>
-            <h1 className="py-5 text-4xl text-center monofont pb-14">
+
+          <div className="md:pt-5">
+            <h1 className="py-5 text-center text-lg md:text-4xl monofont ">
               Privacy <span className="pink-color">Policy</span>
             </h1>
           </div>
