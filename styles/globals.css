@@ -43,7 +43,7 @@ p{
   font-family: 'Hind Vadodara', sans-serif;
 }
 .pink-color{
-	color: #D8AAF8C4;
+	color: #d8aaf8;
 }
 html,
 body {
@@ -162,7 +162,7 @@ a {
 /* **************** Faq slider & section css Start ********** */
 .right-sec{
 	background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%);
-	border-radius: 7px;
+	border-radius: 15px;
   }
 .faq-sw{
   width: 100%;
@@ -198,6 +198,11 @@ a {
 .faq-slide:nth-child(3n) {
   width: 40%;
 } */
+.faq-bachi{
+	background-image: url(../public/assets/faqbachi.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
 
 @media screen and (min-device-width: 0px) and (max-device-width: 375px) { 
 	.scrollfaq {
@@ -246,7 +251,7 @@ a {
 	flex: 1;
 	overflow: hidden;
 	transition: 0.5s;
-	margin: 0 2%;
+	margin: 0 1%;
 	/* box-shadow: 0 20px 30px rgba(0, 0, 0, .1); */
 	line-height: 0;
 }
@@ -275,7 +280,7 @@ a {
 	/* min-width: 150px; */
 	/* max-width: 250px; */
 	display: block;
-	margin: 1em;
+	/* margin: 1em; */
 	padding: 1em 2em;
 	border: none;
 	background: none;
@@ -387,7 +392,7 @@ a {
    border-radius: 20px;
 }
 .card-bg p{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 

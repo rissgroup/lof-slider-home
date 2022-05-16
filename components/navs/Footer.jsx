@@ -14,7 +14,7 @@ export default function Footer() {
     
     <div className="txt-botm">
           <div className="flex flex-col md:flex-row">
-            <div className="basis-ful md:basis-1/4 flex gap-3 pl-5 justify-center md:justify-start">
+            <div className="basis-ful md:basis-1/4 flex gap-3 pl-11 justify-center md:justify-start">
               <a href="" className="">
                 <Image src={twit}
                 width={14}
