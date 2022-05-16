@@ -399,7 +399,7 @@ a {
 
 /* ************************* Term page css start ************** */
 .TermAndConditionDiv{
-	padding-top: 7%;
+	/* padding-top: 7%; */
 	/* height: 70vh; */
 	/* background-image: url("../public/assets/Become-bg.png"); */
 	/* background-color: black; */
@@ -450,6 +450,23 @@ a {
 	font-size: 1.1rem;
   
   }
+
+  @media only screen and (max-width: 767px) {
+	.firsth4{
+		font-weight: 700;
+		font-size: .7rem;
+	  
+	  }
+
+.leading-8{
+
+	font-weight: 700 !important;
+		font-size: .7rem !important;
+}
+
+  }
+
+
   .firsth4 h6{
 	font-size: 1.1rem;
   }

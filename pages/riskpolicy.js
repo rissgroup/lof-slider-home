@@ -11,8 +11,8 @@ export default function riskpolicy() {
         </div>
         <div className=" h-[80%] overflow-hidden text-white px-[6%]">
           {/* ************** Heading div *************** */}
-          <div>
-            <h1 className="pb-5  text-center text-4xl monofont">
+          <div className="md:pt-5">
+            <h1 className="pb-5  pt-5 text-center text-lg md:text-4xl monofont">
               Responsible Risk{" "}
               <span className="pink-color"> Disclosure Policy</span>
             </h1>

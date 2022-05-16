@@ -11,11 +11,11 @@ export default function termandConditions() {
         </div>
         <div className=" h-[80%] overflow-hidden text-white px-[7%]">
           {/* ************** Heading div *************** */}
-          <div className="py-5 text-center">
-            <h1 className="pb-5 text-4xl font-normal monofont">
+          <div className="md:pt-5 pb-5 md:pb-5  text-center">
+            <h1 className="pb-2 pt-5 md:pb-5 text-lg md:text-4xl font-normal monofont">
               General <span className="PinkColor"> Terms and Conditions</span>
             </h1>
-            <h2 className="text-xl font-normal monofont">for Access and Use of Lonelyfans Website and Services</h2>
+            <h2 className=" text-sm md:text-2xl font-normal monofont">for Access and Use of Lonelyfans Website and Services</h2>
           </div>
           {/* ********************* Main data div ******************** */}
           <div className="h-full overflow-y-auto text-white TermAndConditionDiv scroll-bar-hide">
@@ -166,7 +166,7 @@ export default function termandConditions() {
 
             <div sm={12} className='text-light'>
             <h3 className='pb-4 PinkColor fweight '>8. SPECIAL DISCLAIMER</h3>
-            <h3 className='pb-5 text-[17px] font-bold leading-8 text-light lh-base'>THE LONELYFANS SERVICES ARE PROVIDED "AS IS." WE, OUR AFFILIATES AND OUR EVENTUAL SUBPROCESSORS MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESSED, IMPLIED, STATUTORY OR OTHERWISE REGARDING THE LONELYFANS SERVICES, INCLUDING ANY WARRANTY THAT THE LONELYFANS SERVICES WILL BE UNINTERRUPTED, ERROR FREE OR FREE OF RISK OR ADVERSE ELEMENTS, OR THAT ANY CONTENT, INCLUDING THE CUSTOMER DATA, WILL BE SECURE OR NOT OTHERWISE LOST OR DAMAGED. EXCEPT TO THE EXTENT PROHIBITED BY LAW, WE AND OUR AFFILIATES AND SUBPROCESSORS DISCLAIM ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES  OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR QUIET ENJOYMENT, AND ANY WARRANTIES ARISING OUT OF ANY COURSE OF DEALING OR USAGE OF TRADE.</h3>
+            <h3 className='pb-5 text-[17px] font-bold leading-8 text-light lh-base '>THE LONELYFANS SERVICES ARE PROVIDED "AS IS." WE, OUR AFFILIATES AND OUR EVENTUAL SUBPROCESSORS MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESSED, IMPLIED, STATUTORY OR OTHERWISE REGARDING THE LONELYFANS SERVICES, INCLUDING ANY WARRANTY THAT THE LONELYFANS SERVICES WILL BE UNINTERRUPTED, ERROR FREE OR FREE OF RISK OR ADVERSE ELEMENTS, OR THAT ANY CONTENT, INCLUDING THE CUSTOMER DATA, WILL BE SECURE OR NOT OTHERWISE LOST OR DAMAGED. EXCEPT TO THE EXTENT PROHIBITED BY LAW, WE AND OUR AFFILIATES AND SUBPROCESSORS DISCLAIM ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES  OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR QUIET ENJOYMENT, AND ANY WARRANTIES ARISING OUT OF ANY COURSE OF DEALING OR USAGE OF TRADE.</h3>
            </div>
 
            <div sm={12} className='py-5 text-light'>
@@ -239,7 +239,7 @@ export default function termandConditions() {
             
           </div>
         </div>
-        <div className="h-[10%] pt-14">
+        <div className="h-[10%] pt-8">
           <Pagesfooter />
         </div>
       </section>

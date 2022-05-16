@@ -14,7 +14,7 @@ export default function Pagesfooter() {
     
     <div >
           <div className="flex flex-row">
-            <div className="basis-1/4 flex gap-3 pl-5">
+            <div className="basis-1/4 flex gap-3 md:pl-5  ">
               <a href="" className="">
                 <Image src={twit}
                 width={14}
