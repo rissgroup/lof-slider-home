@@ -14,20 +14,20 @@ export default function Beslider() {
 
       </Head>
   
-      <div class="container">
-  <div class="box">
-    <img src="/assets/be-slider/Img1.png"/>
+      <div className="container">
+  <div className="box">
+    <img src="/assets/be-slider/Img1.png"/> 
     
   </div>
-  <div class="box">
+  <div className="box">
     <img src="/assets/be-slider/Img2.png"/>
     
   </div>
-  <div class="box">
+  <div className="box">
     <img src="/assets/be-slider/Img3.png"/>
     
   </div>
-  <div class="box">
+  <div className="box">
     <img src="/assets/be-slider/Img4.png"/>
     
   </div>
