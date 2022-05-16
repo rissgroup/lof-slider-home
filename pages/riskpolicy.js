@@ -1,11 +1,14 @@
 import React from "react";
-// import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesnav from "../components/navs/Pagesnav";
 
 export default function riskpolicy() {
   return (
     <>
       <section className="for-page-bg bg-fixed bg-no-repeat bg-cover bg-center h-screen">
-        <div className="h-[10%]"></div>
+        <div className="h-[10%]">
+          <Pagesnav/>
+        </div>
         <div className=" h-[80%] overflow-hidden text-white px-[6%]">
           {/* ************** Heading div *************** */}
           <div>
@@ -139,8 +142,8 @@ In order to protect the Lonelyfans ecosystem, we request that you not post or sh
 
           </div>
         </div>
-        <div className="h-[10%]">
-          {/* <Pagesfooter /> */}
+        <div className="h-[10%] pt-14">
+          <Pagesfooter />
         </div>
       </section>
     </>
