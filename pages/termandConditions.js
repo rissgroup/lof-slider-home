@@ -1,11 +1,14 @@
 import React from "react";
-// import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesnav from "../components/navs/Pagesnav";
 
 export default function termandConditions() {
   return (
     <>
       <section className="h-screen bg-fixed bg-center bg-no-repeat bg-cover for-page-bg ">
-        <div className="h-[15%]"></div>
+        <div className="h-[10%]">
+          <Pagesnav/>
+        </div>
         <div className=" h-[80%] overflow-hidden text-white px-[7%]">
           {/* ************** Heading div *************** */}
           <div className="py-5 text-center">
@@ -236,8 +239,8 @@ export default function termandConditions() {
             
           </div>
         </div>
-        <div className="">
-          {/* <Pagesfooter /> */}
+        <div className="h-[10%] pt-14">
+          <Pagesfooter />
         </div>
       </section>
     </>

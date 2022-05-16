@@ -1,12 +1,14 @@
 import React from "react";
-// import Nav from '../components/navs/nav'
-// import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesnav from '../components/navs/Pagesnav'
+import Pagesfooter from "../components/navs/Pagesfooter";
 
 export default function privacy() {
   return (
     <>
       <section className="for-page-bg bg-fixed bg-no-repeat bg-cover bg-center h-screen">
-        <div className="h-[10%]"></div>
+        <div className="h-[10%]">
+          <Pagesnav/>
+        </div>
         {/* <Nav/> */}
         <div className=" h-[80%] overflow-hidden text-white px-[7%]">
           <div>
@@ -387,8 +389,8 @@ The source of the usage data is our analytics tracking system. This usage data m
           {/*main data div */}
         </div>
 
-        <div className="h-[10%]">
-          {/* <Pagesfooter /> */}
+        <div className="h-[10%] pt-14">
+          <Pagesfooter />
         </div>
       </section>
     </>
