@@ -56,12 +56,12 @@ export default function Lofplatform() {
       </Head>
       <div className="bg-dark">
         <div className="container-fluid ">
-          <div className=" text-white pt-28 w-full">
+          <div className=" text-white pt-28 lg:pt-44 w-full">
             <div className="col text-center">
-              <h1 className="text-2xl monofont leading-5 -m-5">
+              <h1 className="text-4xl monofont leading-10 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-xs tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
+              <p className="text-sm tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -131,7 +131,7 @@ export default function Lofplatform() {
       }
       if (slide6 == slide6) {
         ImageFiveClick();
-        alert("Thank you StackOverflow, you're a very big gift for all programmers!");
+        
       }
      }}
    

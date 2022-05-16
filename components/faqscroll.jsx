@@ -18,33 +18,33 @@ export default function App() {
         slidesPerView={"auto"}
         // slidesPerView={"2"}
         spaceBetween={10}
-        pagination={{
-          clickable: true,
-          breakpoints: {
-            640: {
-              slidesPerView: 1,
-              // spaceBetween: 20,
-            },
-            // 768: {
-            //   slidesPerView: 4,
-            //   spaceBetween: 40,
-            // },
-            // 1024: {
-            //   slidesPerView: 5,
-            //   spaceBetween: 50,
-            // },
-          }
-        }}
+        // pagination={{
+        //   clickable: true,
+        //   breakpoints: {
+        //     640: {
+        //       slidesPerView: 1,
+        //       // spaceBetween: 20,
+        //     },
+        //     // 768: {
+        //     //   slidesPerView: 4,
+        //     //   spaceBetween: 40,
+        //     // },
+        //     // 1024: {
+        //     //   slidesPerView: 5,
+        //     //   spaceBetween: 50,
+        //     // },
+        //   }
+        // }}
         mousewheel={true}
         modules={[Pagination, Mousewheel]}
-        className="mySwiper faq-sw hidden md:block"
+        className="mySwiper faq-sw hidden md:block "
         
       >
-        <SwiperSlide className="faq-slide">
+        <SwiperSlide className="faq-slide ">
 
-        <div className="right-sec p-5">
-                <h3 className="pink-color text-base" >What is the LOF platform for?</h3>
-                <p className="pr">
+        <div className="right-sec p-5 ">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left" >What is the LOF platform for?</h3>
+                <p className="text-base leading-8 text-left">
                   LOF Platform is a revolutionary fan platform that allows all
                   types of content creators to publish content in many different
                   forms (images, videos, live streams, music and NFTs).
@@ -61,8 +61,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base" >How long does it take to become a creator?</h3>
-                <p className="pr">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left" >How long does it take to become a creator?</h3>
+                <p className="text-base leading-8 text-left">
                 Becoming a creator is a very easy and fast process. It does
                     not require any prior knowledge or skill! You just need to
                     fill in a few details and be verified by the platform
@@ -72,8 +72,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base" >How much money will I earn with LOF?</h3>
-                <p className="pr">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left" >How much money will I earn with LOF?</h3>
+                <p className="text-base leading-8 text-left">
                 The amount you earn is determined by your ability to grow a
                     fan base, the amount of content you sell and the price you
                     choose to sell it for. In full transparency, we cannot
@@ -96,8 +96,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base" >Who can create on the LOF platform?</h3>
-                <p className="pr">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left" >Who can create on the LOF platform?</h3>
+                <p className="text-base leading-8 text-left">
                 Everyone! All kinds of content creators are welcome and free
                     to release content. The content must follow legal
                     restrictions, but besides that LOF is 100% free of
@@ -107,8 +107,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base"> What methods are used for payments?</h3>
-                <p className="pr">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left"> What methods are used for payments?</h3>
+                <p className="text-base leading-8 text-left">
                 Users can pay using a credit card or a crypto wallet.
                     Acceptable cryptocurrencies are BUSD, BNB and of course our
                     native LOF Token. Users who would like to privately purchase
@@ -120,8 +120,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base"> How frequent are payouts to content creators?</h3>
-                <p className="pr">
+                <h3 className="pink-color text-4xl pb-4 monofont text-left"> How frequent are payouts to content creators?</h3>
+                <p className="text-base leading-8 text-left">
                 Payouts will take place once per month for credit/debit card
                     purchases. Crypto payments are practically instant and are
                     not subject to chargebacks! If you’re not familiar with

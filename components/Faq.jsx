@@ -7,13 +7,13 @@ export default function Faq() {
       <div className="bg-dark">
         <div className="container-fluid  ">
           <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28">
-            <div className=" basis-6/12 md:mt-[30%] lg:mt-[13%] xl:mt-[8%] 2xl:mt-[5%]">
+            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-10 faq-bachi">
               <div>
-              <h1 className="pop text-5xl flex align-middle justify-center md:justify-start text-center md:text-left md:text-[100px] font-black stroke-white stroke-[10px]">
+              <h1 className="pop text-5xl flex align-middle justify-center md:justify-start text-center lg:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
                 
                 FAQ
               </h1>
-              </div><div>              <h6 className="momofont pb-6 text-xl mt-2 md:text-3xl font-bold flex justify-center align-middle md:justify-start">
+              </div><div>              <h6 className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex justify-center align-middle md:justify-start">
                 For <span className="pink-color pl-2">  Content creators</span>
               </h6>
               </div>
@@ -21,7 +21,7 @@ export default function Faq() {
             </div>
 
 
-            <div className="basis-6/12  ">
+            <div className="basis-6/12 mr-0 md:mr-20   ">
 
 
         {/* content to show on small screen start */}
