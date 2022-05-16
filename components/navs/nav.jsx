@@ -94,7 +94,7 @@ export default function Example() {
                 </div>
               </div>
 
-              <Disclosure.Panel className="md:hidden">
+              <Disclosure.Panel className="md:hidden mbl-nav-bg">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {navigation.map((item) => (
                     <Disclosure.Button
@@ -103,8 +103,8 @@ export default function Example() {
                       href={item.href}
                       className={classNames(
                         item.current
-                          ? "bg-gray-900 text-white"
-                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          ? " text-white"
+                          : "text-gray-300  hover:text-white",
                         "block px-3 py-2 rounded-md text-base font-medium"
                       )}
                       aria-current={item.current ? "page" : undefined}
@@ -114,8 +114,8 @@ export default function Example() {
                   ))}
                 </div>
                 <div className="pt-4 pb-3 border-t border-gray-700">
-                  <button>Sign up</button>
-                  <button>Sign in</button>
+                  <button className="font-medium text-xs px-5 py-2 rounded-md sign-up hind">Sign up</button>
+                  <button className=" button--moema font-medium button--text-upper text-xs rounded-md px-5 py-2">Sign in</button>
                   {/* <div className="flex items-center px-5">
                     <div className="flex-shrink-0">
                       <img className="h-10 w-10 rounded-full" src={user.imageUrl} alt="" />
