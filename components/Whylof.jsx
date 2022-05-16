@@ -9,16 +9,16 @@ export default function Whylof() {
     <>
       <div className="bg-dark">
         <div className="container-fluid ">
-          <div className="flex flex-col md:flex-row text-white pt-28">
+          <div className="flex flex-col md:flex-row text-white pb-5 pt-20 md:pt-28">
             <div className="basis-full text-center ">
               <h1 className="monofont text-4xl">Why LOF?</h1>
             </div>
           </div>
         </div>
 
-        <div className="container-fluid">
+        <div className=" container-fluid scrollwhylof ">
           <div className="flex flex-col md:flex-row text-white my-2 md:my-5  gap-2 md:gap-10">
-            <div className="basis-2/4 p-5 card-bg">
+            <div className="basis-2/4 py-4  px-4 md:py-5  md:px-5 card-bg">
               <div className="flex pb-3">
                 <Image src={Money} width={50} height={50}  alt="Picture of the author" />
                 <h6 className="my-auto hind text-lg font-bold " style={{ paddingLeft: "2rem" }}>
@@ -31,7 +31,7 @@ export default function Whylof() {
                 price every single time the NFT is resold - forever.
               </p>
             </div>
-            <div className="basis-2/4 p-5 card-bg">
+            <div className="basis-2/4 py-4  px-4 md:py-5  md:px-5 card-bg">
               <div className="flex pb-3">
                 <Image src={Inlove} width={50} height={50}  alt="Picture of the author" />
                 <h6 className="my-auto hind text-lg font-bold" style={{ paddingLeft: "2rem" }}>
@@ -47,7 +47,7 @@ export default function Whylof() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row text-white gap-2 md:gap-10">
-            <div className="basis-2/4 p-5 card-bg">
+            <div className="basis-2/4 py-4  px-4 md:py-5  md:px-5 card-bg">
               <div className="flex pb-3">
                 <Image src={followers} width={50} height={50}  alt="Picture of the author" />
                 <h6 className="my-auto hind text-lg font-bold"  style={{ paddingLeft: "2rem" }}>
@@ -60,7 +60,7 @@ export default function Whylof() {
                 hassle.
               </p>
             </div>
-            <div className="basis-2/4 p-5 card-bg">
+            <div className="basis-2/4 py-4 px-3 card-bg">
               <div className="flex pb-3">
                 <Image src={collaboration} width={50} height={50}   alt="Picture of the author" />
                 <h6 className="my-auto hind text-lg font-bold" style={{ paddingLeft: "2rem" }}>

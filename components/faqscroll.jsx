@@ -37,7 +37,7 @@ export default function App() {
         }}
         mousewheel={true}
         modules={[Pagination, Mousewheel]}
-        className="mySwiper faq-sw"
+        className="mySwiper faq-sw hidden md:block"
         
       >
         <SwiperSlide className="faq-slide">
