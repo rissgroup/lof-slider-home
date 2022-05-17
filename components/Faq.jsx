@@ -9,7 +9,7 @@ export default function Faq() {
           <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28">
             <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi">
               <div data-swiper-parallax="-600">
-              <h1 className="pop text-5xl flex align-middle  md:justify-start text-center lg:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
+              <h1 className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
                 
                 FAQ
               </h1>
@@ -21,7 +21,7 @@ export default function Faq() {
             </div>
 
 
-            <div className="basis-6/12 mr-0 md:mr-20   ">
+            <div className="basis-6/12 mr-0 lg:mr-20   ">
 
 
         {/* content to show on small screen start */}
