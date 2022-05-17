@@ -56,12 +56,12 @@ export default function Lofplatform() {
       </Head>
       <div className="bg-dark">
         <div className="container-fluid ">
-          <div className=" text-white pt-28 lg:pt-44 w-full">
+          <div className=" text-white pt-28 lg:pt-44 w-full mbl-resp-plat">
             <div className="col text-center" data-swiper-parallax="-900">
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
+              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-7/12  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -85,7 +85,7 @@ export default function Lofplatform() {
         //   clickable: true,
         // }}
         modules={[Pagination, Mousewheel]}
-        className="mySwiper pl-swiper swiper-full-mobile hidden md:block"
+        className="mySwiper pl-swiper swiper-full-mobile hidden md:block "
         
       
       >
@@ -99,7 +99,7 @@ export default function Lofplatform() {
       </Swiper>
           {/* *******************desktop  Slider End*********** */}
           {/* *******************Mobile Slider Start*********** */}
-        
+        <div className="block md:hidden slider-resp">
      <Swiper
      navigation
      slidesPerView={1}
@@ -112,7 +112,7 @@ export default function Lofplatform() {
     //    clickable: true,
     //  }}
      modules={[Pagination, Mousewheel, Navigation]}
-     className="mySwiper pl-swiper swiper-full-mobile block md:hidden"
+     className="mySwiper pl-swiper swiper-full-mobile  "
      onSlideChange={() => {
       if (slide1 == slide1) {
         ImageOneClick();
@@ -145,6 +145,7 @@ export default function Lofplatform() {
      <SwiperSlide id="slide6" className="pl-slide" onClick={ImageFiveClick}><img src="/assets/pl-slider/Mobilehome7.png"  alt="" /></SwiperSlide>
      
    </Swiper>
+   </div>
        {/* ******************* Mobile Slider End*********** */}
         </div>
       </div>

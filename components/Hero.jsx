@@ -45,7 +45,7 @@ export default function Hero() {
               
 <div className="container-fluid ">
   <div className="flex flex-col pt-5 text-white lg:flex-row lg:pt-28">
-    <div className="basis-1/5 md:basis-1/3 pt-40 pl-0 md:pt-32 lg:pt-60 md:pl-10 stroke-[2px] " data-swiper-parallax="-900">
+    <div className="basis-1/5 md:basis-1/3 pt-40 pl-0 md:pt-32 lg:pt-60 md:pl-10 stroke-[2px] mbl-resp-hero " data-swiper-parallax="-900">
       <h1 className="text-[4.7rem] md:text-[7.7rem] font-black pop main-heading flex lg:justify-start leading-[8rem]">LONELY</h1>
       <h6 className='flex  ml-1 text-5xl font-black pop main-heading2 lg:justify-start'>FANS</h6>
     </div>
