@@ -749,3 +749,9 @@ a {
  
  
   /* ************************* media-qurries  css End ************** */
+  #stats {
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	z-index: 100;
+}
