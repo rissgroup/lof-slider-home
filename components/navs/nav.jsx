@@ -34,7 +34,7 @@ export default function Example() {
                 <div className="flex items-center  h-16 for-nav ">
                   <div className="flex items-center basis-4/5 md:basis-2/5">
                     <div className="flex-shrink-0 block md:hidden">
-                      <Image className="h-8 w-8" src={Logo} alt="Workflow"  />
+                      <Image className="h-8 w-8" src={Logo} alt="Workflow" width={70} height={35}  />
                     </div>
                     <div className="hidden md:block ">
                       <div className=" flex items-baseline space-x-3">
