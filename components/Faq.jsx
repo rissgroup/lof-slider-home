@@ -7,13 +7,13 @@ export default function Faq() {
       <div className="bg-dark">
         <div className="container-fluid  ">
           <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28">
-            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-10 faq-bachi">
-              <div>
-              <h1 className="pop text-5xl flex align-middle justify-center md:justify-start text-center lg:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
+            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi">
+              <div data-swiper-parallax="-600">
+              <h1 className="pop text-5xl flex align-middle  md:justify-start text-center lg:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
                 
                 FAQ
               </h1>
-              </div><div>              <h6 className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex justify-center align-middle md:justify-start">
+              </div><div data-swiper-parallax="-900">              <h6 className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start">
                 For <span className="pink-color pl-2">  Content creators</span>
               </h6>
               </div>
@@ -25,9 +25,9 @@ export default function Faq() {
 
 
         {/* content to show on small screen start */}
-<div className="text-center block md:hidden scrollfaq">
+<div className=" block md:hidden scrollfaq">
         <div className="right-sec p-5">
-                <h3 className="pink-color text-base" >What is the LOF platform for?</h3>
+                <h3 className="pink-color text-base monofont" >What is the LOF platform for?</h3>
                 <p className="pr">
                   LOF Platform is a revolutionary fan platform that allows all
                   types of content creators to publish content in many different
@@ -44,7 +44,7 @@ export default function Faq() {
               </div>
 
               <div className="right-sec p-5 mt-5">
-                <h3 className="pink-color text-base" >How long does it take to become a creator?</h3>
+                <h3 className="pink-color text-base monofont" >How long does it take to become a creator?</h3>
                 <p className="pr">
                 Becoming a creator is a very easy and fast process. It does
                     not require any prior knowledge or skill! You just need to
@@ -54,7 +54,7 @@ export default function Faq() {
               </div>
 
               <div className="right-sec p-5 mt-5">
-                <h3 className="pink-color text-base" >How much money will I earn with LOF?</h3>
+                <h3 className="pink-color text-base monofont" >How much money will I earn with LOF?</h3>
                 <p className="pr">
                 The amount you earn is determined by your ability to grow a
                     fan base, the amount of content you sell and the price you
@@ -77,7 +77,7 @@ export default function Faq() {
               </div>
 
               <div className="right-sec p-5 mt-5">
-                <h3 className="pink-color text-base" >Who can create on the LOF platform?</h3>
+                <h3 className="pink-color text-base monofont" >Who can create on the LOF platform?</h3>
                 <p className="pr">
                 Everyone! All kinds of content creators are welcome and free
                     to release content. The content must follow legal
@@ -87,7 +87,7 @@ export default function Faq() {
               </div>
 
               <div className="right-sec p-5 mt-5">
-                <h3 className="pink-color text-base"> What methods are used for payments?</h3>
+                <h3 className="pink-color text-base monofont"> What methods are used for payments?</h3>
                 <p className="pr">
                 Users can pay using a credit card or a crypto wallet.
                     Acceptable cryptocurrencies are BUSD, BNB and of course our
@@ -99,7 +99,7 @@ export default function Faq() {
               </div>
 
               <div className="right-sec p-5 mt-5">
-                <h3 className="pink-color text-base"> How frequent are payouts to content creators?</h3>
+                <h3 className="pink-color text-base monofont"> How frequent are payouts to content creators?</h3>
                 <p className="pr">
                 Payouts will take place once per month for credit/debit card
                     purchases. Crypto payments are practically instant and are
