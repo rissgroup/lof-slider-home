@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Pagination, Mousewheel } from "swiper";
+import { Pagination, Mousewheel, Navigation, FreeMode } from "swiper";
 
 export default function App() {
   return (
@@ -16,31 +16,24 @@ export default function App() {
       <Swiper
       direction={"vertical"}
         slidesPerView={"auto"}
-        // slidesPerView={"2"}
-        spaceBetween={10}
-        // pagination={{
-        //   clickable: true,
-        //   breakpoints: {
-        //     640: {
-        //       slidesPerView: 1,
-        //       // spaceBetween: 20,
-        //     },
-        //     // 768: {
-        //     //   slidesPerView: 4,
-        //     //   spaceBetween: 40,
-        //     // },
-        //     // 1024: {
-        //     //   slidesPerView: 5,
-        //     //   spaceBetween: 50,
-        //     // },
-        //   }
-        // }}
+        // slidesPerView={2}
+        // spaceBetween={10}
+        pagination={{
+          clickable: true,
+         
+          
+        }}
+        // centeredSlides={true}
+        // navigation={true}
+        // freeMode={true}
         mousewheel={true}
-        modules={[Pagination, Mousewheel]}
-        className="mySwiper faq-sw hidden md:block "
+        modules={[Pagination, Mousewheel, Navigation, FreeMode]}
+        className="mySwiper faq-sw hidden md:block my-auto"
         
       >
         <SwiperSlide className="faq-slide ">
+
+
 
         <div className="right-sec p-5 ">
                 <h3 className="pink-color text-4xl pb-4 monofont text-left" >What is the LOF platform for?</h3>
@@ -58,6 +51,7 @@ export default function App() {
                   payment format they choose!
                 </p>
               </div>
+              
         </SwiperSlide>
         <SwiperSlide className="faq-slide">
         <div className="right-sec p-5">

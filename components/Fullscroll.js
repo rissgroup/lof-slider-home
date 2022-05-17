@@ -33,7 +33,7 @@ export default function Fullscroll() {
           "--swiper-pagination-color": "#fff",
           "height":"100vh"
         }}
-        speed={600}
+        speed={1200}
         parallax={true}
         // pagination={{
         //   clickable: true,

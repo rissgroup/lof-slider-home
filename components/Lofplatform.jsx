@@ -57,11 +57,11 @@ export default function Lofplatform() {
       <div className="bg-dark">
         <div className="container-fluid ">
           <div className=" text-white pt-28 lg:pt-44 w-full">
-            <div className="col text-center">
-              <h1 className="text-4xl monofont leading-10 -m-5">
+            <div className="col text-center" data-swiper-parallax="-900">
+              <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-sm tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
+              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto  w-12/12 md:w-7/12  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -86,7 +86,7 @@ export default function Lofplatform() {
         // }}
         modules={[Pagination, Mousewheel]}
         className="mySwiper pl-swiper swiper-full-mobile hidden md:block"
-      
+        
       
       >
         <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Mobile.png' onClick={ImageOneClick} alt="" /></SwiperSlide>
