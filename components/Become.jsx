@@ -7,7 +7,7 @@ export default function Become() {
     <>
     <div className="bg-dark hero">
       <div className="container-fluid ">
-        <div className="flex flex-col text-white  md:flex-row pt-28 md:pt-32 place-content-center">
+        <div className="flex flex-col text-white  md:flex-row pt-28 mbl-resp-bcm md:pt-32 place-content-center">
           <div className="md:mt-40 basis-1/4 md:ml-14 " data-swiper-parallax="-900">
             <h1 className="text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 ">
               Become A <br />

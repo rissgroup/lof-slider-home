@@ -727,6 +727,28 @@ a {
  
  
  
+  /* *************************Hero-sec media-qurries  css start ************** */
+  @media only screen and (max-width: 380px) {
+	.mbl-resp-hero{
+		padding-top: 80px;
+	}
+
+  }
+  /* *************************Hero-sec media-qurries  css start ************** */
+  /* *************************lof-plat media-qurries  css start ************** */
+  @media only screen and (max-width: 380px) {
+	.mbl-resp-plat{
+		padding-top: 80px;
+	}
+	.txt-hide{
+		display: none;
+	}
+  }
+  /* *************************lof-plat media-qurries  css start ************** */
+ 
+ 
+ 
+ 
   /* *************************BecomeAC  media-qurries css start ************** */
   @media only screen and (max-width: 767px) {
 	.box > img {
@@ -737,6 +759,20 @@ a {
 	}
 
   }
+  @media only screen and (max-width: 380px) {
+	.mbl-resp-bcm{
+		padding-top: 60px;
+	}
+	.box > img {
+		height: calc(45% - 0vh);
+	}
+	.box:hover > img {
+		height: 48vh;
+	}
+
+
+  }
+
  
   /* *************************BecomeAC media-qurries  css start ************** */
   
