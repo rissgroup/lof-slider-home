@@ -28,7 +28,7 @@ export default function App() {
         // freeMode={true}
         mousewheel={true}
         modules={[Pagination, Mousewheel, Navigation, FreeMode]}
-        className="mySwiper faq-sw hidden md:block my-auto"
+        className="mySwiper faq-sw hidden md:block my-auto md:mt-52"
         
       >
         <SwiperSlide className="faq-slide ">
