@@ -54,7 +54,7 @@ export default function Lofplatform() {
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
       </Head>
-      <div className="bg-dark">
+      <div className="bg-dark" id="Lof-plat">
         <div className="container-fluid ">
           <div className=" text-white pt-28 lg:pt-44 w-full mbl-resp-plat">
             <div className="col text-center" data-swiper-parallax="-900">

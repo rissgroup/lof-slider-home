@@ -46,7 +46,7 @@ export default function Example() {
                               item.current
                                 ? " text-white nav-link"
                                 : "text-white  ",
-                              "px-3 py-2 rounded-md text-xs font-medium hind"
+                              "px-3 py-2 rounded-md text-sm font-medium hind glow"
                             )}
                             aria-current={item.current ? "page" : undefined}
                           >
@@ -63,11 +63,11 @@ export default function Example() {
                   </div>
                   <div className="hidden text-white md:block basis-2/5">
                     <div className="flex items-center justify-end gap-4 ml-4 md:ml-6">
-                      <button className="px-5 py-2 text-xs font-medium rounded-md sign-up hind">Sign up</button>
+                      <button className="px-5 py-2 text-sm font-medium rounded-md sign-up hind glow">Sign up</button>
                       {/* <button className="px-5 py-2 text-xs font-medium border-2 rounded-md pink-color sign-in hind">Sign in</button> */}
 
 
-<button className="px-5 py-2 text-xs font-medium rounded-md button button--moema button--text-upper">Sign in</button>
+<button className="px-5 py-2 text-sm font-medium rounded-md button button--moema button--text-upper">Sign in</button>
 
 
                      
@@ -114,8 +114,8 @@ export default function Example() {
                   ))}
                 </div>
                 <div className="pt-0 text-white border-t border-gray-700 pb-7">
-                  <button className="px-5 py-5 mt-2 text-xs font-medium rounded-md "  >Sign up</button>
-                  <button className="px-5 py-2 text-xs font-medium rounded-md button--moema button--text-upper">Sign in</button>
+                  <button className="px-5 py-5 mt-2 text-sm font-medium rounded-md "  >Sign up</button>
+                  <button className="px-5 py-2 text-sm font-medium rounded-md button--moema button--text-upper">Sign in</button>
                   {/* <div className="flex items-center px-5">
                     <div className="flex-shrink-0">
                       <img className="w-10 h-10 rounded-full" src={user.imageUrl} alt="" />

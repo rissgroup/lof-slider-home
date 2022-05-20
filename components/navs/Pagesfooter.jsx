@@ -5,7 +5,7 @@ import twit from "../../public/assets/Icons/Twitter.svg";
 import instagram from "../../public/assets/Icons/instagram.svg";
 import reddit from "../../public/assets/Icons/reddit.svg";
 import discord from "../../public/assets/Icons/discord.svg";
-import heart from "../../public/assets/Icons/Herat.svg";
+import heart from "../../public/assets/Icons/Herat.png";
 import telegram from "../../public/assets/Icons/telegram.svg";
 
 export default function Pagesfooter() {
@@ -45,23 +45,23 @@ export default function Pagesfooter() {
               </a>
             </div>
             <div className="basis-2/4 ">
-              <ul className="flex justify-center gap-6 text-xs font-medium text-white hind" >
-                <li >
+              <ul className="flex justify-center gap-6 text-sm font-medium text-white hind" >
+                <li className='glow' >
                   <Link href="/termandConditions">
                     <a>Term and Condition</a>
                   </Link>
                 </li>
-                <li >
+                <li className='glow'>
                   <Link href="/privacy">
                     <a>Privacy</a>
                   </Link>
                 </li>
-                <li >
+                <li className='glow' >
                   <Link href="/riskpolicy">
                     <a>Risk Policy</a>
                   </Link>
                 </li>
-                <li >
+                <li className='glow' >
                   <Link href="/">
                     <a>Contact</a>
                   </Link>

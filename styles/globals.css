@@ -73,6 +73,21 @@ a {
     -o-transition: all 0.7s;
     transition: all 0.7s;
 }
+.glow{
+	-moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.glow:hover{
+	color: #D8AAF8C4;
+	/* text-shadow:0px 0px 30px #fff; */
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
 
 /* ************ Navbar css end ************ */
 /* ************ Footer  css end ************ */
@@ -290,7 +305,7 @@ a {
 	/* max-width: 250px; */
 	display: block;
 	/* margin: 1em; */
-	padding: 1em 2em;
+	padding: 0.5em 2em;
 	border: none;
 	background: none;
 	color: inherit;
@@ -535,7 +550,7 @@ a {
   /* ************************* privacy page  css start ************** */
   .for-PrivacyBg{
 	/* height: 100vh; */
-	background-image: url("../public/assets/Become-bg.png");
+	/* background-image: url("../public/assets/Become-bg.png"); */
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -636,7 +651,8 @@ a {
   /* ************************* policy page  css start ************** */
   .for-page-bg{
 	/* height: 100vh; */
-	background-image: url("../public/assets/Become-bg.png");
+	/* background-image: url("../public/assets/Become-bg.png"); */
+	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;			
