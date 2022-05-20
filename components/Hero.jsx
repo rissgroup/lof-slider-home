@@ -40,7 +40,7 @@ export default function Hero() {
     </div>
   </div> */}
 
-    <div className="bg-dark hero ">
+    <div className="bg-dark hero " id='Home'>
 
               
 <div className="container-fluid ">
