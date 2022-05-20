@@ -11,6 +11,7 @@ import Plslider from "./Plslider"
 import Faqscroll from "./faqscroll";
 import Hero from "./Hero";
 import Lofplatform from "./Lofplatform";
+import Lofslider from "./Lof-slider"
 import Become from "./Become";
 import Whylof from "./Whylof";
 import Faq from "./Faq";
@@ -57,7 +58,11 @@ export default function Fullscroll() {
          <Hero/>
         </SwiperSlide>
         <SwiperSlide>
-          <Lofplatform/>
+          {/* <Lofplatform/> */}
+          <div className="py-[10%]">
+
+          <Lofslider/>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <Become/>
