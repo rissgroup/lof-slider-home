@@ -783,6 +783,15 @@ a {
 	.txt-hide{
 		display: none;
 	}
+	.img-size{
+		width: 15rem;
+		margin-top: 40px;
+		margin-left: 1.25rem;
+	}
+	.img-size1{
+		width: 15rem;
+		/* margin-top: 40px; */
+	}
   }
   /* *************************lof-plat media-qurries  css start ************** */
  
