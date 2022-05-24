@@ -1,20 +1,68 @@
-import React from "react";
-import Faqscroll from "./faqscroll"
+import React,{useEffect} from "react";
+import Faqscroll from "./faqscroll";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import AnimatedText from 'react-animated-text-content';
 
 export default function Faq() {
+  useEffect(() => {
+    AOS.init({ duration: 3000});
+    AOS.refresh();
+  }, []);
   return (
     <>
-      <div className="bg-dark">
+      <div className="bg-dark" id="faq">
         <div className="container-fluid  ">
           <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28">
-            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi">
-              <div data-swiper-parallax="-600">
-              <h1 className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10">
-                
-                FAQ
-              </h1>
-              </div><div data-swiper-parallax="-900">              <h6 className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start">
-                For <span className="pink-color pl-2">  Content creators</span>
+            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi " data-aos="fade-right">
+              <div >
+              <AnimatedText
+    type='words'
+    interval={0.04}
+    duration={0.8}
+    animation={{
+      x: '-1px',
+      y: '-100px',
+      ease: 'ease',
+      scale: 1.06,
+    }}
+    className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10"
+  >
+   FAQ
+</AnimatedText>
+
+   <div className="flex">         
+<AnimatedText
+    type='words'
+    interval={0.04}
+    duration={0.8}
+    animation={{
+      x: '-100px',
+      y: '100px',
+      ease: 'ease',
+      scale: 1.06,
+    }}
+    className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start"
+  >
+     For
+</AnimatedText>
+<AnimatedText
+    type='words'
+    interval={0.04}
+    duration={0.8}
+    animation={{
+      x: '-100px',
+      y: '100px',
+      ease: 'ease',
+      scale: 1.06,
+    }}
+    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+  >
+    Content creators
+</AnimatedText>
+</div>
+              </div><div >              <h6 >
+              <span className="">  </span>
               </h6>
               </div>
 

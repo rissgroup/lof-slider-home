@@ -34,6 +34,7 @@ export default function Fullscroll() {
           "--swiper-pagination-color": "#fff",
           "height":"100vh"
         }}
+        
         speed={1200}
         parallax={true}
         // pagination={{
@@ -43,45 +44,45 @@ export default function Fullscroll() {
         modules={[Parallax, Pagination, Navigation, Mousewheel]}
         className="mySwiper faq-sw"
         mousewheel={true}
+        autoplay={false}
       >
         <div
           slot="container-start"
           className="parallax-bg"
           style={{
-            // "background-image":
-            //   "url(../public/assets/smoke.gif)",
+           
               
           }}
           data-swiper-parallax="-23%"
         ></div>
-        <SwiperSlide>
+        <SwiperSlide className="home-bg">
          <Hero/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="home-bg">
           {/* <Lofplatform/> */}
-          <div className="py-[10%]">
+          <div className="">
 
           <Lofslider/>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="home-bg">
           <Become/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="home-bg">
           <Whylof/>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="home-bg">
           <Faq/>
         </SwiperSlide>
 
 
 
 
-        {/* <SwiperSlide>
+        {/* <SwiperSlide className="home-bg">
             <Beslider/>
         </SwiperSlide> */}
-        {/* <SwiperSlide>
+        {/* <SwiperSlide className="home-bg">
             <Faqscroll/>
         </SwiperSlide> */}
       </Swiper>
