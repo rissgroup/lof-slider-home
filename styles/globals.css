@@ -50,8 +50,26 @@ body {
   padding: 0;
   margin: 0;
 background-color: #000;
-
+animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+.mySwiper{
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 
 a {
   color: inherit;
@@ -101,6 +119,12 @@ a {
 /* ************ Fotter  css end ************ */
 
 /* **************** Home main slider start ********** */
+/* .home-bg{
+	background-image: url(../public/assets/smoke.gif);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+} */
 .parallax-bg {
   background-image: url(../public/assets/smoke.gif);
   position: absolute;
@@ -194,6 +218,9 @@ a {
 }
 .swiper-button-prev{
 	left: 0px !important;
+}
+.img-size{
+	width:15rem !important;
 }
 /* **************** Pl slider & section css End ********** */
 

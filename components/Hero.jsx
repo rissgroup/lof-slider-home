@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image';
-import mainimage from "../public/assets/Bachi-2.png"
+import mainimage from "../public/assets/Bachi-2.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+
+
 
 export default function Hero() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <> 
      {/* <div class="concept concept-three">
@@ -45,7 +55,7 @@ export default function Hero() {
               
 <div className="container-fluid ">
   <div className="flex flex-col pt-5 text-white lg:flex-row lg:pt-28">
-    <div className="basis-1/5 md:basis-1/3 pt-40 pl-0 md:pt-32 lg:pt-60 md:pl-10 stroke-[2px] mbl-resp-hero " data-swiper-parallax="-900">
+    <div className="basis-1/5 md:basis-1/3 pt-40 pl-0 md:pt-32 lg:pt-60 md:pl-10 stroke-[2px] mbl-resp-hero "  data-aos="fade-right"  >
       <h1 className="text-[4.7rem] md:text-[7.7rem] font-black pop main-heading flex lg:justify-start leading-[8rem]">LONELY</h1>
       <h6 className='flex  ml-1 text-5xl font-black pop main-heading2 lg:justify-start'>FANS</h6>
     </div>
@@ -65,7 +75,7 @@ export default function Hero() {
         <img src="/assets/Bachi.png" alt="Picture of the author" />
        
     </div>
-    <div className="pt-12 pl-0 basis-1/3 md:pt-40 md:pl-20" data-swiper-parallax="-900">
+    <div className="pt-12 pl-0 basis-1/3 md:pt-40 md:pl-20"   data-aos="fade-left"  >
       <h5 className='text-[1.8rem] md:text-[3.5rem]  monofont flex  lg:justify-start'>
         A revolutionary <br />
       </h5>
