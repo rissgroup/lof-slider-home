@@ -183,6 +183,38 @@ a {
 	z-index: 2;
 	margin: auto;
 	}
+	.swiper-full-mobile2{
+		position: relative;
+	/* margin: 40px auto; */
+	/* padding-bottom: 50px; */
+	}
+	.swiper-full-mobile2::before{
+		content: "";
+	/* width: 265px; */
+	/* width: 256px; */
+	width: 358px;
+	background: url(../public//assets/pl-slider/frame.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 660px;
+	right: 0;
+	top: 0px;
+	/* height: 548px; */
+	height: 100%;
+	z-index: 2;
+	margin: auto;
+	}
+	@media (min-width:801px) and (max-width:900px) {
+		.swiper-full-mobile2::before{
+			left: 400px;
+			width: 300px;
+		}	
+	}
+
+
+
+
 .pl-slide{
   text-align: center;
   /* font-size: 18px; */
@@ -220,7 +252,7 @@ a {
 	left: 0px !important;
 }
 .img-size{
-	width:15rem !important;
+	/* width:15rem !important; */
 }
 /* **************** Pl slider & section css End ********** */
 
@@ -708,11 +740,7 @@ a {
 	background-size: cover;
 	background-attachment: fixed;			
   }
-  .RiskPolicyDiv {
-	/* padding-top: 5%; */
-	/* height: 100vh; */
-   
-  }
+ 
   .RiskPolicyDiv p {
 	font-size: .9rem;
 	line-height: 1.8rem;
