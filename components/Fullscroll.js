@@ -22,11 +22,13 @@ import Nav from "./navs/nav";
 // import required modules
 import { Parallax, Pagination, Navigation, Mousewheel } from "swiper";
 import Footer from "./navs/Footer";
+// import { Head } from "next/document";
 
 
 export default function Fullscroll() {
   return (
     <>
+   
     <Nav/>
       <Swiper
         style={{

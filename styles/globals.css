@@ -45,6 +45,10 @@ p{
 .pink-color{
 	color: #d8aaf8;
 }
+html{
+	scroll-behavior: smooth !important;
+	scroll-behavior: auto  smooth initial inherit;
+}
 html,
 body {
   padding: 0;
