@@ -42,7 +42,7 @@ export default function Fullscroll() {
         // }}
         navigation={false}
         modules={[Parallax, Pagination, Navigation, Mousewheel]}
-        className="mySwiper faq-sw"
+        className="mySwiper main-sloider faq-sw"
         mousewheel={true}
         autoplay={false}
       >

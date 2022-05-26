@@ -125,7 +125,14 @@ a {
 	background-size: cover;
 	background-position: center;
 } */
-.parallax-bg {
+.main-sloider{
+	background-image: url(../public/assets/smoke.gif);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+}
+/* .parallax-bg {
   background-image: url(../public/assets/smoke.gif);
   position: absolute;
   left: 0;
@@ -135,7 +142,7 @@ a {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-}
+} */
 /* **************** Home main slider End ********** */
 /* **************** Pl  slider & section css start ********** */
 .lof-s{
