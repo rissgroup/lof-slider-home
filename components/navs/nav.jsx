@@ -14,7 +14,7 @@ const user = {
 };
 const navigation = [
   { name: "Home", href: "#Home", current: true },
-  { name: "LOF platform", href: "#lof-slider", current: false },
+  { name: "LOF platform", href: "#Lof-plat", current: false },
   { name: "Become a creator", href: "#become", current: false },
   { name: "FAQ", href: "#faq", current: false },
 ];

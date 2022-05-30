@@ -11,11 +11,14 @@ const override = css`
   margin: 0 auto;
   border-color: red;
   position: absolute;
-  top: 45%;
-  left:45%
+//  margin-top:300px;
+  top: 40%;
+  left:0%;
+  right:0%;
+  bottom:0%;
   // text-align: center;
-  // alifn-items: center;
-  // justify-content: center;
+  alifn-items: center;
+  justify-content: center;
   
 `;
 

@@ -61,10 +61,10 @@ export default function Fullscroll() {
          <Hero/>
         </SwiperSlide>
         <SwiperSlide className="home-bg">
-          {/* <Lofplatform/> */}
+          <Lofplatform/>
           <div className="">
 
-          <Lofslider/>
+          {/* <Lofslider/> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="home-bg">

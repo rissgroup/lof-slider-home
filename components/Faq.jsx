@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import AnimatedText from 'react-animated-text-content';
 
+
 export default function Faq() {
   useEffect(() => {
     AOS.init({ duration: 3000});
