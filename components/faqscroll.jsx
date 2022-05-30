@@ -13,25 +13,29 @@ import { Pagination, Mousewheel, Navigation, FreeMode } from "swiper";
 export default function App() {
   return (
     <>
+    
       <Swiper
       direction={"vertical"}
         slidesPerView={"auto"}
+      
         // slidesPerView={2}
         // spaceBetween={10}
-        pagination={{
+      
+        navigation={{
           clickable: true,
          
           
         }}
+       
         // centeredSlides={true}
         // navigation={true}
         // freeMode={true}
         mousewheel={true}
         modules={[Pagination, Mousewheel, Navigation, FreeMode]}
-        className="mySwiper faq-sw hidden md:block my-auto md:mt-52"
+        className="mySwiper faq-sw hidden md:block my-auto  "
         
       >
-        <SwiperSlide className="faq-slide ">
+        <SwiperSlide className="faq-slide  ">
 
 
 

@@ -49,15 +49,17 @@ export default function Lofplatform() {
   const [ImageText, SetImageText] = useState(
     "Become a content creator? Want to earn by selling your content? At LOF Platform you will keep up to 95% of all your sales. Release your content free of judgement and completely at your own terms."
   );
+
+ 
   return (
     <>
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
       </Head>
-      <div className="bg-dark" id="Lof-plat">
+      <div className="bg-dark " id="Lof-plat">
         <div className="container-fluid ">
           <div className=" text-white pt-28 lg:pt-44 w-full mbl-resp-plat">
-            <div className="col text-center" data-swiper-parallax="-900">
+            <div className="col text-center" >
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
@@ -73,11 +75,11 @@ export default function Lofplatform() {
           {/* ******************* desktop Slider Start*********** */}
         
      <Swiper
-     
         slidesPerView={5}
         spaceBetween={30}
+        centeredSlides={true}
         mousewheel={true}
-        centeredSlides
+        // centeredSlides
         slideToClickedSlide
         
         loop    

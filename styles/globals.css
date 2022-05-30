@@ -68,6 +68,10 @@ animation: fadeInAnimation ease 3s;
 }
 
 
+
+
+
+
 .mySwiper{
 	animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -245,12 +249,18 @@ a {
   -webkit-align-items: center;
   align-items: center;
 }
+
+.swiper-slide-active{
+	opacity: 1 !important;
+}
+
 .pl-slide img{
   display: block;
   /* width: 100%; */
   /* height: 100%; */
   object-fit: cover;
   margin-top: 10px;
+  opacity: 0.5;
 }
 .pl-swiper{
   width: 100%;
@@ -280,6 +290,7 @@ a {
 .faq-slide{
   text-align: center;
   font-size: 18px;
+  top: 40%;
   /* margin: 10px !important; */
   /* background: #fff; */
 
@@ -901,8 +912,41 @@ a {
  
   /* ************************* media-qurries  css End ************** */
   #stats {
-	position: absolute;
-	left: 10px;
-	top: 0px;
-	z-index: 100;
-}
+	  position: absolute;
+	  left: 10px;
+	  top: 0px;
+	  z-index: 100;
+	}
+
+
+
+
+
+
+	/* ************************* aroows ************** */
+	.swiper-button-next {
+		background-image: url(../public/assets/Icons/down-arrow.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+		position: relative !important;
+		
+	}
+	
+	.swiper-button-next::after {
+		display: none;
+	}
+	
+	
+	
+	.swiper-button-prev {
+		  background-image: url(../public/assets/Icons/arrow_up.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+		position: relative !important;
+	  }
+	  
+	  .swiper-button-prev::after {
+		display: none;
+	  }
