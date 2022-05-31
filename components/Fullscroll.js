@@ -16,6 +16,7 @@ import Become from "./Become";
 import Whylof from "./Whylof";
 import Faq from "./Faq";
 import Nav from "./navs/nav";
+import Bec from "./bec";
 
 
 
@@ -68,7 +69,8 @@ export default function Fullscroll() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="home-bg">
-          <Become/>
+          {/* <Become/> */}
+          <Bec/>
         </SwiperSlide>
         <SwiperSlide className="home-bg">
           <Whylof/>

@@ -56,7 +56,7 @@ export default function Lofplatform() {
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
       </Head>
-      <div className="bg-dark " id="Lof-plat">
+      <div className="bg-dark " id="Lof-platform">
         <div className="container-fluid ">
           <div className=" text-white pt-28 lg:pt-44 w-full mbl-resp-plat">
             <div className="col text-center" >
@@ -91,8 +91,8 @@ export default function Lofplatform() {
         
       
       >
-        <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Mobile.png' onClick={ImageOneClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome4.png" onClick={ImageTwoClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide "><img src='/assets/pl-slider/Mobile.png' className="w-[220px]" onClick={ImageOneClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome4.png" className="w-[220px]"   onClick={ImageTwoClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome6.png" onClick={ImageThreeClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide>
@@ -139,8 +139,8 @@ export default function Lofplatform() {
    
    
    >
-     <SwiperSlide  className="pl-slide" onClick={ImageOneClick}><img src='/assets/pl-slider/Mobile.png' id="slide1" alt="" /></SwiperSlide>
-     <SwiperSlide id="slide2" className="pl-slide" onClick={ImageTwoClick}><img src="/assets/pl-slider/Mobilehome4.png"  alt="" /></SwiperSlide>
+     <SwiperSlide  className="pl-slide" onClick={ImageOneClick}><img src='/assets/pl-slider/Mobile.png' className="w-[220px]" id="slide1" alt="" /></SwiperSlide>
+     <SwiperSlide id="slide2" className="pl-slide" onClick={ImageTwoClick}><img src="/assets/pl-slider/Mobilehome4.png" className="w-[220px]" alt="" /></SwiperSlide>
      <SwiperSlide id="slide3" className="pl-slide"  onClick={ImageThreeClick}><img src="/assets/pl-slider/Mobilehome6.png" alt="" /></SwiperSlide>
      <SwiperSlide id="slide4" className="pl-slide" onClick={ImageFourClick}><img src="/assets/pl-slider/Mobilehome5.png"  alt="" /></SwiperSlide>
      <SwiperSlide id="slide5" className="pl-slide" onClick={ImageFiveClick}><img src="/assets/pl-slider/Mobilehome7.png"  alt="" /></SwiperSlide>
