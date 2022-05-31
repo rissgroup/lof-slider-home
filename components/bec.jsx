@@ -89,65 +89,65 @@ More features, profit and freedom - with dedicated support in everything.
         
       </div>
       <div className='basis-6/12 '>
-      <div class="my-auto md:mr-20 ">
-  <div class="slidebec ">
-    <div class="product-box">
-      <div class="img">
+      <div className="my-auto md:mr-20 ">
+  <div className="slidebec ">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img1.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
      
     </div>
-    <div class="product-box">
-      <div class="img">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img2.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
       
     </div>
-    <div class="product-box">
-      <div class="img">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img3.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
       
     </div>
-    <div class="product-box">
-      <div class="img">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img4.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
     
     </div>
-    <div class="product-box">
-      <div class="img">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img1.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
      
     </div>
-    <div class="product-box">
-      <div class="img">
+    <div className="product-box">
+      <div className="img">
         <img src="/assets/be-slider/img2.png" alt=""/>
       </div>
-      <div class="details">
-        <p class="name">Marateigen</p>
-        <p class="price">@marateigen</p>
+      <div className="details">
+        <p className="name">Marateigen</p>
+        <p className="price">@marateigen</p>
       </div>
       
     </div>
