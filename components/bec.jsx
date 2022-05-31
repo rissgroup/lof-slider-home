@@ -8,7 +8,7 @@ export default function bec() {
     <>
   <section className='container-fluid' id='become'>
   <div className='flex flex-col md:flex-row text-white'>
-    <div className=" basis-6/12  my-auto mt-20"      >
+    <div className=" basis-6/12  my-auto mt-20 md:my-auto"      >
         
        
 
