@@ -81,17 +81,19 @@ export default function Lofplatform() {
         // mousewheel={true}
         // centeredSlides
         slideToClickedSlide
-        // navigation={{
-        //   clickable: true,
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
          
           
-        // }}
+        }}
+       
        
         loop    
         // pagination={{
         //   clickable: true,
         // }}
-        modules={[Pagination, Mousewheel]}
+        modules={[Pagination,Navigation, Mousewheel]}
         className="mySwiper pl-swiper swiper-full-mobile hidden md:block "
         
       
@@ -102,7 +104,8 @@ export default function Lofplatform() {
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome9.png"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
         {/* <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide> */}
-        
+        <div class="swiper-button-next" onClick={ImageOneClick} ></div>
+      <div class="swiper-button-prev"></div>
       </Swiper>
           {/* *******************desktop  Slider End*********** */}
           {/* *******************Mobile Slider Start*********** */}
