@@ -15,34 +15,34 @@ export default function Hero() {
 
   return (
     <> 
-     {/* <div class="concept concept-three">
-    <div class="word text-white">
-      <div class="hover">
+     {/* <div className="concept concept-three">
+    <div className="word text-white">
+      <div className="hover">
         <div></div>
         <div></div>
         <h1>L</h1>
       </div>
-      <div class="hover">
+      <div className="hover">
         <div></div>
         <div></div>
         <h1>O</h1>
       </div>
-      <div class="hover"> 
+      <div className="hover"> 
         <div></div>
         <div></div>
         <h1>N</h1>
       </div>
-      <div class="hover">
+      <div className="hover">
         <div></div>
         <div></div>
         <h1>E</h1>
       </div>
-      <div class="hover">
+      <div className="hover">
         <div></div>
         <div></div>
         <h1>L</h1>
       </div>
-      <div class="hover">
+      <div className="hover">
         <div></div>
         <div></div>
         <h1>Y</h1>
