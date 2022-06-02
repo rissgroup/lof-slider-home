@@ -21,11 +21,11 @@ export default function App() {
         // slidesPerView={2}
         // spaceBetween={10}
       
-        navigation={{
-          clickable: true,
+        // navigation={{
+        //   clickable: true,
          
           
-        }}
+        // }}
        
         // centeredSlides={true}
         // navigation={true}

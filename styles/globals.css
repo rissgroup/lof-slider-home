@@ -207,7 +207,7 @@ a {
 	.swiper-full-mobile:before {
 	content: "";
 	/* width: 265px; */
-	width: 290px;
+	width: 267px;
 	background: url(../public//assets/pl-slider/frame.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -958,8 +958,8 @@ a {
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: center;
-		position: relative !important;
-		top: -100px !important;
+		/* position: relative !important; */
+		/* top: -100px !important; */
 		
 	}
 	
@@ -975,7 +975,7 @@ a {
 		background-size: 100% auto;
 		background-position: center;
 		/* position: relative !important; */
-		top: 20% !important;
+		/* top: 20% !important; */
 		
 	  }
 	  

@@ -1,5 +1,6 @@
 import React,{useEffect} from "react";
 import Faqscroll from "./faqscroll";
+import Faqslick from "./Faqslick";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import AnimatedText from 'react-animated-text-content';
@@ -269,7 +270,7 @@ export default function Faq() {
                 </p>
               </div>
             </div> */}
-            
+            {/* <Faqslick/> */}
             <Faqscroll/>
             </div>
           </div>
