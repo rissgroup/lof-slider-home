@@ -124,6 +124,27 @@ a {
 	width: 100%;
 	z-index: 8;
   }
+  .svg-hover {
+	width: 20px;
+	height: 20px;
+  }
+  
+  .svg-hover img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .svg-hover img:nth-child(2) {
+	display: none; 
+  }
+  
+  .svg-hover:hover img:nth-child(1) {
+	display: none;
+  }
+  
+  .svg-hover:hover img:nth-child(2) {
+	display: block;
+  } 
 /* ************ Fotter  css end ************ */
 
 /* **************** Home main slider start ********** */
@@ -186,7 +207,7 @@ a {
 	.swiper-full-mobile:before {
 	content: "";
 	/* width: 265px; */
-	width: 256px;
+	width: 290px;
 	background: url(../public//assets/pl-slider/frame.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -259,6 +280,7 @@ a {
   object-fit: cover;
   margin-top: 10px;
   /* opacity: 0.5; */
+
 }
 .pl-swiper{
   width: 100%;
@@ -270,11 +292,17 @@ a {
 .swiper-button-prev{
 	left: 0px !important;
 }
-.pl-swiper .swiper-slide{
+.pl-swiper .swiper-slide img{
 	opacity: 0.2;
+	width: 60% !important;
+	margin-top: 50px;
 }
- .pl-swiper .swiper-slide-active{
+ .pl-swiper .swiper-slide-active img{
 	  opacity: 1 !important;
+	  width: 68% !important;
+	  margin-top: 10px;
+	/* width: 360px !important; */
+
   }
 /* **************** Pl slider & section css End ********** */
 
@@ -926,11 +954,12 @@ a {
 
 	/* ************************* aroows ************** */
 	.swiper-button-next {
-		background-image: url(../public/assets/Icons/down-arrow.png);
+		background-image: url(../public/assets/Icons/down.png);
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: center;
 		position: relative !important;
+		top: -100px !important;
 		
 	}
 	
@@ -941,11 +970,13 @@ a {
 	
 	
 	.swiper-button-prev {
-		  background-image: url(../public/assets/Icons/arrow_up.png);
+		  background-image: url(../public/assets/Icons/up.png);
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: center;
-		position: relative !important;
+		/* position: relative !important; */
+		top: 20% !important;
+		
 	  }
 	  
 	  .swiper-button-prev::after {

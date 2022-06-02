@@ -22,7 +22,8 @@ export default function Become() {
               <span className="pink-color ">Creator</span>
             </h1> */}
     
-            <AnimatedText
+       <div className='flex'>
+       <AnimatedText
   type="words" // animate words or chars
   animation={{
     x: '200px',
@@ -34,7 +35,7 @@ export default function Become() {
   interval={0.06}
   duration={0.8}
   tag="p"
-  className="animated-paragraph text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5"
+  className="animated-paragraph text-4xl flex  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5"
   includeWhiteSpaces
   threshold={0.1}
   rootMargin="20%"
@@ -53,7 +54,7 @@ Become A
   interval={0.06}
   duration={0.8}
   tag="p"
-  className="animated-paragraph text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 pink-color "
+  className="animated-paragraph text-4xl flex  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 pink-color "
   includeWhiteSpaces
   threshold={0.1}
   rootMargin="20%"
@@ -61,6 +62,7 @@ Become A
 
              Creator
 </AnimatedText>
+       </div>
 
 <AnimatedText
      type='words'

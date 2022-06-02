@@ -59,9 +59,38 @@ export default function Faq() {
     }}
     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
   >
-    Content creators
+    Creators
+</AnimatedText>
+<AnimatedText
+    type='words'
+    interval={0.04}
+    duration={0.8}
+    animation={{
+      x: '-100px',
+      y: '100px',
+      ease: 'ease',
+      scale: 1.06,
+    }}
+    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+  >
+   And 
+</AnimatedText>
+<AnimatedText
+    type='words'
+    interval={0.04}
+    duration={0.8}
+    animation={{
+      x: '-100px',
+      y: '100px',
+      ease: 'ease',
+      scale: 1.06,
+    }}
+    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+  >
+    Fans
 </AnimatedText>
 </div>
+
               </div><div >              <h6 >
               <span className="">  </span>
               </h6>
