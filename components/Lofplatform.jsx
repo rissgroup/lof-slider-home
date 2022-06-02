@@ -104,8 +104,8 @@ export default function Lofplatform() {
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome9.png"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
         {/* <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide> */}
-        <div class="swiper-button-next" onClick={ImageOneClick} ></div>
-      <div class="swiper-button-prev"></div>
+        <div className="swiper-button-next" onClick={ImageOneClick} ></div>
+      <div className="swiper-button-prev"></div>
       </Swiper>
           {/* *******************desktop  Slider End*********** */}
           {/* *******************Mobile Slider Start*********** */}
