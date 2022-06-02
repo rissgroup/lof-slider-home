@@ -11,7 +11,7 @@ export default function bec() {
     <div className=" basis-6/12  my-auto mt-20 md:my-auto"      >
         
        
-
+<div className='flex'>
         <AnimatedText
 type="words" // animate words or chars
 animation={{
@@ -43,7 +43,7 @@ animationType="float"
 interval={0.06}
 duration={0.8}
 tag="p"
-className="animated-paragraph text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-20 "
+className="animated-paragraph text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
 includeWhiteSpaces
 threshold={0.1}
 rootMargin="20%"
@@ -51,7 +51,7 @@ rootMargin="20%"
 
          Creator
 </AnimatedText>
-
+</div>
 <AnimatedText
  type='words'
  interval={0.04}

@@ -13,39 +13,39 @@ import Image from "next/image";
 export default function Lofplatform() {
   const ImageOneClick = () => {
     SetImageText(
-      " Image 1 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+      " Create a free account and start browsing content from the hottest models around the world.  We have made everything extremely simple and there are no hidden terms."
     );
   };
   const ImageTwoClick = () => {
     SetImageText(
-      " Image 2 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+      " LOF Platform offers more features than any other fan site. Interact with your favorite content creators like never before. "
     );
   };
   const ImageThreeClick = () => {
     SetImageText(
-      " Image 3 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+      "Become a content creator?  Want to earn by selling your content? At LOF Platform you will keep up to 95% of all your sales. Release your content free of judgement and completely at your own terms. "
     );
   };
   const ImageFourClick = () => {
     SetImageText(
-      " Image 4 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+      " View pictures, videos, live streams - or privately message the models. You'll be able to connect with your favorite content creators. "
     );
   };
   const ImageFiveClick = () => {
     SetImageText(
-      " Image 5 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+      "Effortless and secure payments. Support your favorite content creator and buy their exclusive content.You can pay using money or crypto. "
     );
   };
-  const ImageSixClick = () => {
-    SetImageText(
-      " Image 6 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
-    );
-  };
-  const ImageSevenClick = () => {
-    SetImageText(
-      " Image 7 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
-    );
-  };
+  // const ImageSixClick = () => {
+  //   SetImageText(
+  //     " Image 6 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+  //   );
+  // };
+  // const ImageSevenClick = () => {
+  //   SetImageText(
+  //     " Image 7 Text here - Our plan is to revolutionize the whole industry with the LOF platform, which will be the crown jewel of our ecosystem. The entry level release already packs a huge array of features – many of which other platforms lack. "
+  //   );
+  // };
   const [ImageText, SetImageText] = useState(
     "Become a content creator? Want to earn by selling your content? At LOF Platform you will keep up to 95% of all your sales. Release your content free of judgement and completely at your own terms."
   );
@@ -58,12 +58,12 @@ export default function Lofplatform() {
       </Head>
       <div className="bg-dark " id="Lof-platform">
         <div className="container-fluid ">
-          <div className=" text-white pt-28 lg:pt-44 w-full mbl-resp-plat">
+          <div className=" text-white pt-28 lg:pt-32 w-full mbl-resp-plat">
             <div className="col text-center" >
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-7/12  pt-8 font-light ">
+              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[37%]  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -78,10 +78,15 @@ export default function Lofplatform() {
         slidesPerView={5}
         spaceBetween={30}
         centeredSlides={true}
-        mousewheel={true}
+        // mousewheel={true}
         // centeredSlides
         slideToClickedSlide
-        
+        // navigation={{
+        //   clickable: true,
+         
+          
+        // }}
+       
         loop    
         // pagination={{
         //   clickable: true,
@@ -91,12 +96,12 @@ export default function Lofplatform() {
         
       
       >
-        <SwiperSlide className="pl-slide "><img src='/assets/pl-slider/Mobile.png' className="w-[220px]" onClick={ImageOneClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Mobile.png' className="w-[220px] " onClick={ImageOneClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome4.png" className="w-[220px]"   onClick={ImageTwoClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome6.png" onClick={ImageThreeClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome9.png"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
+        {/* <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide> */}
         
       </Swiper>
           {/* *******************desktop  Slider End*********** */}
