@@ -62,7 +62,7 @@ export default function Lofplatform() {
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[37%]  pt-8 font-light ">
+              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[60%] lg:w-[37%]  pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}
@@ -80,12 +80,12 @@ export default function Lofplatform() {
         // mousewheel={true}
         // centeredSlides
         slideToClickedSlide
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+        //   navigation={{
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
          
           
-        }}
+        // }}
        
        
         loop    
@@ -103,8 +103,8 @@ export default function Lofplatform() {
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
         <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome9.png"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
         {/* <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide> */}
-        <div className="swiper-button-next" onClick={ImageOneClick} ></div>
-      <div className="swiper-button-prev"></div>
+        {/* <div className="swiper-button-next" onClick={ImageOneClick} ></div>
+      <div className="swiper-button-prev"></div> */}
       </Swiper>
           {/* *******************desktop  Slider End*********** */}
           {/* *******************Mobile Slider Start*********** */}

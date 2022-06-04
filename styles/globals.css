@@ -241,10 +241,24 @@ a {
 	z-index: 2;
 	margin: auto;
 	}
-	@media (min-width:801px) and (max-width:900px) {
-		.swiper-full-mobile2::before{
-			left: 400px;
-			width: 300px;
+	@media (min-width:380px) and (max-width:500px) {
+		.swiper-full-mobile:before{
+			width: 255px;
+		}	
+	}
+	@media  (max-width:375px) {
+		.swiper-full-mobile:before{
+			width: 243px;
+		}	
+	}
+	@media (min-width:760px) and (max-width:920px) {
+		.swiper-full-mobile:before{
+			width: 100px;
+		}	
+	}
+	@media (min-width:1350px) and (max-width:1500px) {
+		.swiper-full-mobile:before{
+			width: 182px;
 		}	
 	}
 
