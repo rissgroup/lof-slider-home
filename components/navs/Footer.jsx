@@ -48,26 +48,26 @@ export default function Footer() {
             </div>
             <div className="basis-2/4  ">
               <ul className=" gap-6 flex justify-center text-white text-sm font-medium hind " >
-                <li className='glow'>
-                  <Link href="/termandConditions">
+                
+                  <Link href="/termandConditions" className='glow'>
                     <a>Term and Condition</a>
                   </Link>
-                </li>
-                <li className='glow'>
-                  <Link href="/privacy">
+                
+              
+                  <Link href="/privacy" className='glow'>
                     <a>Privacy</a>
                   </Link>
-                </li>
-                <li  className='glow'>
-                  <Link href="/riskpolicy">
+              
+                
+                  <Link href="/riskpolicy" className='glow'>
                     <a>Risk Policy</a>
                   </Link>
-                </li>
-                <li className='glow'>
-                  <Link href="/">
+                
+            
+                  <Link href="/" className='glow'>
                     <a>Contact</a>
                   </Link>
-                </li>
+                
               </ul>
             </div>
             <div className="basis-1/4"></div>
