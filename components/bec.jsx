@@ -89,7 +89,7 @@ More features, profit and freedom - with dedicated support in everything.
         
       </div>
       <div className='basis-6/12 '>
-      <div className="my-auto md:mr-20 ">
+      {/* <div className="my-auto md:mr-20 ">
   <div className="slidebec ">
     <div className="product-box">
       <div className="img">
@@ -152,7 +152,8 @@ More features, profit and freedom - with dedicated support in everything.
       
     </div>
   </div>
-</div>
+</div> */}
+
       </div>
     </div>
   </section>
