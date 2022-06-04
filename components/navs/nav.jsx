@@ -26,11 +26,11 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      <div className="min-h-full">
+      <div className="min-h-full ">
         <Disclosure as="nav" className="top-nav">
           {({ open }) => (
             <>
-              <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+              <div className=" mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-sm">
                 <div className="flex items-center  h-16 for-nav ">
                   <div className="flex items-center basis-4/5 md:basis-2/5">
                     <div className="flex-shrink-0 block md:hidden">

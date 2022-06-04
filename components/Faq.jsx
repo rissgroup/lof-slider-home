@@ -282,8 +282,8 @@ export default function Faq() {
                   forms (images, videos, live streams, music and NFTs).
                   Creators can freely choose the fee for users to view their
                   content. The platform will charge a minimal share of the
-                  earnings, up to 15% and as little as 5%. <br />
-                  <br /> For customers, the LOF Platform is a place where they
+                  earnings, up to 15% and as little as 5%. 
+                   For customers, the LOF Platform is a place where they
                   can view and purchase content from the most interesting
                   content creators around the world at the most competitive
                   prices. Anonymously if they choose to, depending on the
