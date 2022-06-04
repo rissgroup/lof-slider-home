@@ -46,26 +46,23 @@ export default function Pagesfooter() {
             </div>
             <div className="basis-2/4 ">
               <ul className="flex justify-center gap-6 text-sm font-medium text-white hind" >
-                <li className='glow' >
-                  <Link href="/termandConditions">
+                
+                  <Link href="/termandConditions" className='glow'>
                     <a>Term and Condition</a>
                   </Link>
-                </li>
-                <li className='glow'>
-                  <Link href="/privacy">
+               
+                  <Link href="/privacy" className='glow'>
                     <a>Privacy</a>
                   </Link>
-                </li>
-                <li className='glow' >
-                  <Link href="/riskpolicy">
+             
+                  <Link href="/riskpolicy" className='glow'>
                     <a>Risk Policy</a>
                   </Link>
-                </li>
-                <li className='glow' >
-                  <Link href="/">
+                
+                  <Link href="/" className='glow'>
                     <a>Contact</a>
                   </Link>
-                </li>
+                
               </ul>
             </div>
             <div className="basis-1/4"></div>
