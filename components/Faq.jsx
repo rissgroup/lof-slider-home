@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Faqscroll from "./faqscroll";
 import Faqpop from "./Faqpop";
 import AnimatedText from "react-animated-text-content";
 

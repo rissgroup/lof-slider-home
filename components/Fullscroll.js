@@ -6,18 +6,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-import Plslider from "./Plslider"
-import Faqscroll from "./faqscroll";
 import Hero from "./Hero";
 import Lofplatform from "./Lofplatform";
-import Lofslider from "./Lof-slider"
-import Become from "./Become";
 import Whylof from "./Whylof";
 import Faq from "./Faq";
 import Nav from "./navs/nav";
 import Bec from "./bec";
-import Faqpop from "./Faqpop"
 
 
 
