@@ -21,7 +21,7 @@ export default function MyModal(props) {
        
           type="button"
           onClick={openModal}
-          className="rounded-md card-bg mt-5 w-[800px] px-4 py-4 font-semibold monofont pink-color text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="rounded-md card-bg mt-5 w-full md:w-[800px] px-4 py-4 font-semibold monofont pink-color text-sm md:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           {props.btntext}
         </button>

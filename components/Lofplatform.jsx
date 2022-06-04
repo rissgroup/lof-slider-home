@@ -1,6 +1,6 @@
 import Head from "next/head";
-import React, { useState, useEffect } from "react";
-import { Navigation, Pagination, Scrollbar, A11y , Mousewheel } from 'swiper';
+import React, { useState } from "react";
+import { Navigation, Pagination,  Mousewheel } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

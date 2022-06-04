@@ -18,6 +18,7 @@ import Bec from "./bec";
 // import required modules
 import { Parallax, Pagination, Navigation, Mousewheel } from "swiper";
 import Footer from "./navs/Footer";
+import Faq2 from "./Faq2";
 // import { Head } from "next/document";
 
 
@@ -73,9 +74,12 @@ export default function Fullscroll() {
 
         <SwiperSlide className="home-bg">
           <Faq/>
-          {/* <Faqpop/> */}
+          
         </SwiperSlide>
-
+        <SwiperSlide className="home-bg">
+          <Faq2/>
+          
+        </SwiperSlide>
 
 
 
