@@ -17,6 +17,7 @@ import Whylof from "./Whylof";
 import Faq from "./Faq";
 import Nav from "./navs/nav";
 import Bec from "./bec";
+import Faqpop from "./Faqpop"
 
 
 
@@ -78,6 +79,7 @@ export default function Fullscroll() {
 
         <SwiperSlide className="home-bg">
           <Faq/>
+          {/* <Faqpop/> */}
         </SwiperSlide>
 
 
