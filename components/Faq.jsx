@@ -5,9 +5,9 @@ import AnimatedText from "react-animated-text-content";
 export default function Faq() {
   return (
     <>
-      <div className="bg-dark" id="faq">
+      <div className="h-screen" id="faq">
         <div className="container-fluid  ">
-          <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28">
+          <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28 h-screen">
             <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi ">
               <div>
                 <AnimatedText
@@ -299,12 +299,27 @@ export default function Faq() {
               />
 
               <Faqpop
-                btntext="How long does it take to become a creator?"
+                btntext="How much money will I earn with LOF?"
+                poptext="The amount you earn is determined by your ability to grow a fan base, the amount of content you sell and the price you choose to sell it for. In full transparency, we cannot promise a minimum income. What we can promise however, is all the tools you need to be successful, connecting you with a great amount of potential new fans from our userbase and answer all your questions. We have a healthy community of content creators and an open atmosphere to cross promote and network with.
+
+                By accepting our LOF cryptocurrency token as part of your payments, there is the potential for an exponential gain in value due to the ecosystems impact on the supply, as well as passive income generation. By holding LOF cryptocurrency tokens in your possession, you will automatically receive passive income sent to your wallet! Don’t worry, if this sounds confusing, we have videos to better explain it in our education center!"
+              />
+               <Faqpop
+                btntext="Who can create on the LOF platform?"
+                poptext="Everyone! All kinds of content creators are welcome and free to release content. The content must follow legal restrictions, but besides that LOF is 100% free of judgement."
+              />
+               <Faqpop
+                btntext="What methods are used for payments?"
                 poptext="Becoming a creator is a very easy and fast process. It does
                     not require any prior knowledge or skill! You just need to
-                    fill in a few details and be verified by the platform
+                    fill in a few details and be verified by the platformUsers can pay using a credit card or a crypto wallet. Acceptable cryptocurrencies are BUSD, BNB and of course our native LOF Token. Users who would like to privately purchase content will prefer to use cryptocurrency. If you’re not familiar with cryptocurrency or the process of using it, we have how-to videos in our education center!
                     moderators before you can start releasing your content."
               />
+               <Faqpop
+                btntext="How frequent are payouts to content creators?"
+                poptext="Payouts will take place once per month for credit/debit card purchases. Crypto payments are practically instant and are not subject to chargebacks! If you’re not familiar with cryptocurrency or the process of using it, we have how-to videos in our Education Center!"
+              />
+              
             </div>
           </div>
         </div>
