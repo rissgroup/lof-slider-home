@@ -58,7 +58,7 @@ class Bec extends React.Component {
     return (<>
     <section className="container-fluid" id="become">
         <div className="flex flex-col md:flex-row text-white">
-          <div className=" basis-6/12  my-auto mt-20 ">
+          <div className=" basis-6/12  my-auto lg:mt-64 ">
             <div className="flex">
               <AnimatedText
                 type="words" // animate words or chars
