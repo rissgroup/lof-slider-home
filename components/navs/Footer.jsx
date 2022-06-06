@@ -15,35 +15,35 @@ export default function Footer() {
     <div className="txt-botm">
           <div className="flex flex-col md:flex-row">
             <div className="basis-ful md:basis-1/4 flex gap-3 pl-0 md:pl-11 mb-3 md:mb-0 justify-center md:justify-start">
-              <a href="" className="svg-hover">
+              <a href="https://twitter.com/LOFcrypto" className="svg-hover">
                <img src="/assets/Icons/Twitter.svg" alt="" />
                 
-               <img src="/assets/Icons/instagram.svg" alt="" />
+               <img src="/assets/Icons/Twitter-p.svg" alt="" />
               </a>
-              <a href="" className="svg-hover">
+              <a href="https://t.me/LonelyFansChat" className="svg-hover">
                <img src="/assets/Icons/telegram.svg" alt="" />
                 
-               <img src="/assets/Icons/Twitter.svg" alt="" />
+               <img src="/assets/Icons/telegram-p.svg" alt="" />
               </a>
-              <a href="" className="svg-hover">
+              <a href="https://www.instagram.com/lofcrypto/" className="svg-hover">
                <img src="/assets/Icons/instagram.svg" alt="" />
                 
-               <img src="/assets/Icons/Herat.svg" alt="" />
+               <img src="/assets/Icons/instagram-p.svg" alt="" />
               </a>
-              <a href="" className="svg-hover">
+              <a href="https://discord.com/invite/T2fSbGbgWj" className="svg-hover">
                <img src="/assets/Icons/discord.svg" alt="" />
                 
-               <img src="/assets/Icons/instagram.svg" alt="" />
+               <img src="/assets/Icons/discord-p.svg" alt="" />
               </a>
-              <a href="" className="svg-hover">
+              <a href="https://www.reddit.com/r/LOFcrypto/" className="svg-hover">
                <img src="/assets/Icons/reddit.svg" alt="" />
                 
-               <img src="/assets/Icons/instagram.svg" alt="" />
+               <img src="/assets/Icons/reddit-p.svg" alt="" />
               </a>
-              <a href="" className="svg-hover">
+              <a href="" className="svg-hover ">
                <img src="/assets/Icons/Herat.svg" alt="" />
                 
-               <img src="/assets/Icons/instagram.svg" alt="" />
+               <img src="/assets/Icons/Heart-p.svg" alt="" />
               </a>
             </div>
             <div className="basis-2/4  ">
