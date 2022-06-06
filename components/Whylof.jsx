@@ -10,16 +10,16 @@ export default function Whylof() {
     <>
       <div className="bg-dark">
         <div className="container-fluid ">
-          <div className="flex flex-col md:flex-row text-white pb-5 pt-20 md:pt-36 lg:pt-52">
+          <div className="flex flex-col md:flex-row text-white pb-5 pt-20 md:pt-20 2xl:pt-52">
             <div className="basis-full text-center ">
-              <h1 className="monofont text-3xl md:text-5xl">Why LOF?</h1>
+              <h1 className="monofont text-3xl 2xl:text-5xl">Why LOF?</h1>
             </div>
           </div>
         </div>
 
         <div className=" container-fluid scrollwhylof ">
-          <div className="flex flex-col md:flex-row text-white my-2 md:my-10  gap-2 md:gap-10 lg:gap-10 lg:px-10">
-            <div className="basis-2/4 py-4  px-4 md:py-8  md:px-8 card-bg">
+          <div className="flex flex-col md:flex-row text-white my-5 2xl:my-10   gap-2 md:gap-10 2xl:gap-10  lg:px-10">
+            <div className="basis-2/4 py-4  px-4 2xl:py-8  md:px-8 card-bg">
               <div className="flex pb-3">
                 <Image
                   src={Money}
@@ -41,7 +41,7 @@ export default function Whylof() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="font-normal text-[18px]"
+                className="font-normal text-[16px]"
               >
                 You will keep up to 95% of all your sales! In addition to that,
                 you can release your content as NFTs, and get a share of the
@@ -49,7 +49,7 @@ export default function Whylof() {
               </AnimatedText>
               <p></p>
             </div>
-            <div className="basis-2/4 py-4  px-4 md:py-8  md:px-8 card-bg">
+            <div className="basis-2/4 py-4  px-4 2xl:py-8  md:px-8 card-bg">
               <div className="flex pb-3">
                 <Image
                   src={Inlove}
@@ -80,7 +80,7 @@ export default function Whylof() {
               </AnimatedText>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row text-white gap-2 md:gap-10 lg:gap-10 lg:px-10  ">
+          <div className="flex flex-col md:flex-row text-white gap-2 md:gap-10 2xl:gap-10 lg:px-10  ">
             <div className="basis-2/4 py-4  px-4 md:py-8  md:px-8 card-bg">
               <div className="flex pb-3">
                 <Image

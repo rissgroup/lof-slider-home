@@ -7,8 +7,8 @@ export default function Faq() {
     <>
       <div className="h-screen" id="faq">
         <div className="container-fluid  ">
-          <div className="flex flex-col md:flex-row  text-white pt-20 md:pt-28 h-screen">
-            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 md:ml-10 faq-bachi ">
+          <div className="flex flex-col md:flex-row  text-white pt-20 2xl:pt-28 h-screen">
+            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 2xl:ml-10 faq-bachi ">
               <div>
                 <AnimatedText
                   type="words"
@@ -20,7 +20,7 @@ export default function Faq() {
                     ease: "ease",
                     scale: 1.06,
                   }}
-                  className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-60 md:text-left md:text-[160px] font-black  stroke-white stroke-2 md:ml-10"
+                  className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-36 2xl:mt-60 md:text-left xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 md:ml-10"
                 >
                   FAQ
                 </AnimatedText>
@@ -36,7 +36,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start"
+                    className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start"
                   >
                     For
                   </AnimatedText>
@@ -50,7 +50,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     Creators
                   </AnimatedText>
@@ -64,7 +64,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     And
                   </AnimatedText>
@@ -78,7 +78,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     Fans
                   </AnimatedText>
@@ -87,7 +87,7 @@ export default function Faq() {
              
             </div>
 
-            <div className="basis-6/12 mr-0 lg:mr-20   ">
+            <div className="basis-6/12 mr-0  2xl:mr-20   ">
              
               <Faqpop
                 btntext="What is the LOF platform for?"
