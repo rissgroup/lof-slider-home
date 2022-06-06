@@ -47,13 +47,13 @@ export default function Faq2() {
           </div>
         </div>
 
-        <div className="container-fluid flex flex-wrap px-5 py-24 mx-auto items-center">
-          <div className="md:w-1/2 md:pr-12 2xl:py-8  md:mb-0   ">
+        <div className="container-fluid flex flex-wrap px-5 py-24 mx-auto my-auto items-center ">
+          <div className="md:w-1/2 md:pr-12 2xl:py-8  md:mb-0 2xl:mt-32  ">
             <div className="">
               <button
                 type="button"
                 onClick={FaqQusOne}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left  w-full md:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left  w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 What is the LOF platform for?
               </button>
@@ -62,7 +62,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusTwo}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[550px] 2xl:text-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 How long does it take to become a creator?
               </button>
@@ -71,7 +71,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusThree}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[550px] 2xl:text-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 How much money will I earn with LOF?
               </button>
@@ -80,7 +80,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusFour}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[550px] 2xl:text-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 Who can create on the LOF platform?
               </button>
@@ -89,7 +89,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusFive}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[550px] 2xl:text-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 What methods are used for payments?
               </button>
@@ -98,7 +98,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusSix}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[550px] 2xl:text-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 How frequent are payouts to content creators?
               </button>

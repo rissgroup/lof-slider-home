@@ -7,8 +7,8 @@ export default function Faq() {
     <>
       <div className="h-screen" id="faq">
         <div className="container-fluid  ">
-          <div className="flex flex-col md:flex-row  text-white pt-20 2xl:pt-28 h-screen">
-            <div className=" basis-6/12 md:mt-[0%] lg:mt-[%] xl:mt-[%] 2xl:mt-[%] ml-0 2xl:ml-10 faq-bachi ">
+          <div className="flex flex-col lg:flex-row  text-white pt-20 md:pt-32 2xl:pt-28 h-screen">
+            <div className=" basis-6/12 md:basis-0 lg:basis-6/12 ml-0 md:ml-40 lg:ml-0 2xl:ml-10 faq-bachi ">
               <div>
                 <AnimatedText
                   type="words"
@@ -20,7 +20,7 @@ export default function Faq() {
                     ease: "ease",
                     scale: 1.06,
                   }}
-                  className="pop text-5xl flex align-middle  md:justify-start text-center md:mt-36 2xl:mt-60 md:text-left xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 md:ml-10"
+                  className="pop text-5xl flex align-middle  text-center lg:mt-36 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 md:ml-36"
                 >
                   FAQ
                 </AnimatedText>
@@ -52,7 +52,7 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                    Creators
+                    Creators   
                   </AnimatedText>
                   <AnimatedText
                     type="words"
@@ -66,7 +66,7 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                    And
+                    And 
                   </AnimatedText>
                   <AnimatedText
                     type="words"
@@ -80,14 +80,14 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                    Fans
+                   Fans
                   </AnimatedText>
                 </div>
               </div>
              
             </div>
 
-            <div className="basis-6/12 mr-0  2xl:mr-20   ">
+            <div className="basis-6/12 mr-0 ml-0 md:ml-28 lg:ml-0 2xl:mr-20 md:my-auto  ">
              
               <Faqpop
                 btntext="What is the LOF platform for?"

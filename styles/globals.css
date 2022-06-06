@@ -250,6 +250,51 @@ a {
 			width: 255px;
 		}	
 	}
+	@media (min-width:920px) and (max-width:960px) {
+		.swiper-full-mobile:before{
+			width: 118px;
+		}	
+	}
+	@media (min-width:965px) and (max-width:1000px) {
+		.swiper-full-mobile:before{
+			width: 125px;
+		}	
+	}
+	@media (min-width:1005px) and (max-width:1050px) {
+		.swiper-full-mobile:before{
+			width: 135px;
+		}	
+	}
+	@media (min-width:1055px) and (max-width:1100px) {
+		.swiper-full-mobile:before{
+			width: 145px;
+		}	
+	}
+	@media (min-width:1105px) and (max-width:1150px) {
+		.swiper-full-mobile:before{
+			width: 155px;
+		}	
+	}
+	@media (min-width:1155px) and (max-width:1200px) {
+		.swiper-full-mobile:before{
+			width: 160px;
+		}	
+	}
+	@media (min-width:1205px) and (max-width:1250px) {
+		.swiper-full-mobile:before{
+			width: 165px;
+		}	
+	}
+	@media (min-width:1255px) and (max-width:1300px) {
+		.swiper-full-mobile:before{
+			width: 170px;
+		}	
+	}
+	@media (min-width:1300px) and (max-width:1350px) {
+		.swiper-full-mobile:before{
+			width: 175px;
+		}
+	}
 	@media  (max-width:375px) {
 		.swiper-full-mobile:before{
 			width: 243px;
@@ -370,6 +415,13 @@ a {
 	background-image: url(../public/assets/faqbachi.png);
 	background-repeat: no-repeat;
 	background-size: auto;
+}
+
+@media screen and (min-device-width: 830px) and (max-device-width: 1000px) { 
+	.faq-bachi{
+		background-image: url() !important;
+	}
+
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width: 375px) { 
