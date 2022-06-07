@@ -20,7 +20,7 @@ export default function Faq() {
                     ease: "ease",
                     scale: 1.06,
                   }}
-                  className="pop text-5xl flex align-middle  text-center lg:mt-36 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 md:ml-36"
+                  className="pop text-5xl flex align-middle  text-center lg:mt-36 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 lg:ml-8 md:ml-36"
                 >
                   FAQ
                 </AnimatedText>
