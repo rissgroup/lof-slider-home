@@ -42,7 +42,7 @@ export default function Faq2() {
         <div className=" text-white pt-28 lg:pt-32 xl:pt-16 w-full mbl-resp-plat">
           <div className="col text-center">
             <h1 className="monofont text-3xl md:text-3xl 2xl:text-5xl">
-              FAQ For <span className="pink-color">Creators And Fans</span>
+              FAQ For <span className="pink-color">creators and fans</span>
             </h1>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Faq2() {
               <button
                 type="button"
                 onClick={FaqQusTwo}
-                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                className="rounded-md card-bg mt-2 md:mt-5 text-left w-full md:w-[350px] lg:w-[550px] 2xl:w-[800px] px-8 py-4 font-semibold monofont pink-color text-xs md:text-xl 2xl:text-3xl hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
               >
                 How long does it take to become a creator?
               </button>

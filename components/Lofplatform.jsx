@@ -97,11 +97,11 @@ export default function Lofplatform() {
         
       
       >
-        <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Mobile.png' className="w-[220px] " onClick={ImageOneClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome4.png" className="w-[220px]"   onClick={ImageTwoClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome6.png" onClick={ImageThreeClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome5.png" onClick={ImageFourClick} alt="" /></SwiperSlide>
-        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome9.png"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src='/assets/pl-slider/Login.svg' className="w-[220px] " onClick={ImageOneClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Profile.svg" className="w-[220px]"   onClick={ImageTwoClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Live-Stream.svg" onClick={ImageThreeClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Drop-Down.svg" onClick={ImageFourClick} alt="" /></SwiperSlide>
+        <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Message.svg"  className="w-[220px] " onClick={ImageFiveClick} alt="" /></SwiperSlide>
         {/* <SwiperSlide className="pl-slide"><img src="/assets/pl-slider/Mobilehome7.png" onClick={ImageFiveClick} alt="" /></SwiperSlide> */}
         {/* <div className="swiper-button-next" onClick={ImageOneClick} ></div>
       <div className="swiper-button-prev"></div> */}
