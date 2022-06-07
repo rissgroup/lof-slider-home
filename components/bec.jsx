@@ -6,7 +6,7 @@ import Script from "next/script";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
-export default function bec() {
+export default function Bec() {
   const [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
