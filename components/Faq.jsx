@@ -52,7 +52,7 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                    Creators   
+                    creators   
                   </AnimatedText>
                   <AnimatedText
                     type="words"
@@ -66,7 +66,7 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                    And 
+                    and 
                   </AnimatedText>
                   <AnimatedText
                     type="words"
@@ -80,7 +80,7 @@ export default function Faq() {
                     }}
                     className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
-                   Fans
+                   fans
                   </AnimatedText>
                 </div>
               </div>
