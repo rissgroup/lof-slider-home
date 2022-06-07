@@ -4,15 +4,14 @@ import React from "react";
 import AnimatedText from "react-animated-text-content";
 import Script from "next/script";
 
-
-export default function bec() {
+export default function bec2() {
   return (
     <>
-           <Script src="/be.js" type="text/javascript"></Script>
+     <Script src="/be.js" type="text/javascript"></Script>
         <Script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></Script>
         <section className="container-fluid" id="become">
           <div className="flex flex-col md:flex-row text-white">
-            <div className=" basis-5/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
+            <div className=" basis-6/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
               <div className="flex">
                 <AnimatedText
                   type="words" // animate words or chars
@@ -85,8 +84,8 @@ export default function bec() {
                 Create an account
               </button>
             </div>
-            <div className="basis-7/12 pt-20  ">
-            <img src="/assets/be-slider/sec-1.png" alt="" />
+            <div className="basis-6/12 pt-20 ">
+            <img src="/assets/be-slider/sec-2.png" alt="" />
             </div>
           </div>
         </section>
@@ -94,3 +93,4 @@ export default function bec() {
     </>
   )
 }
+
