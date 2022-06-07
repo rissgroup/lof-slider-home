@@ -530,7 +530,7 @@ a {
 	/* border-radius: 50px; */
 	/* background: #7986cb; */
 	color: #fff;
-  border: 2px solid #D8AAF8C4;
+  border: 2px solid #d8aaf8;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
