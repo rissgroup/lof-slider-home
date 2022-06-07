@@ -1,12 +1,20 @@
 
 import React from 'react';
 import $ from 'jquery';
+import { Dialog, Transition } from '@headlessui/react'
+import { Fragment, useState } from 'react'
 
 
 import AnimatedText from "react-animated-text-content";
 
 class Bec extends React.Component {
+  
   componentDidMount() {
+
+   
+
+
+
     var images = [
       "/assets/be-slider/img1.png",
       "/assets/be-slider/img2.png",
@@ -52,9 +60,15 @@ class Bec extends React.Component {
     var clone3 = $(".col3 ul li").clone();
     clone3.appendTo(".col3 ul");
     
+
+
+   
   }
-  state = {  } 
+  
+  
+  
   render() { 
+  
     return (<>
     <section className="container-fluid" id="become">
         <div className="flex flex-col md:flex-row text-white">
@@ -72,7 +86,7 @@ class Bec extends React.Component {
                 interval={0.06}
                 duration={0.8}
                 tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-2xl mt-1 xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
+                className="animated-paragraph text-4xl leading-10  md:text-2xl lg:text-4xl mt-1 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
                 includeWhiteSpaces
                 threshold={0.1}
                 rootMargin="20%"
@@ -91,7 +105,7 @@ class Bec extends React.Component {
                 interval={0.06}
                 duration={0.8}
                 tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-3xl xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
+                className="animated-paragraph text-4xl leading-10 lg:text-4xl md:text-3xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
                 includeWhiteSpaces
                 threshold={0.1}
                 rootMargin="20%"
@@ -108,7 +122,7 @@ class Bec extends React.Component {
                 ease: "ease",
                 scale: 1.06,
               }}
-              className="md:leading-8 text-[13px] lg:pl-20"
+              className="md:leading-8 text-[15px] lg:pl-20"
             >
               Create an account and we’ll get you started in no time!
             </AnimatedText>
@@ -121,15 +135,16 @@ class Bec extends React.Component {
                 ease: "ease",
                 scale: 1.06,
               }}
-              className="md:leading-8 text-[12px] lg:pl-20"
+              className="md:leading-8 text-[14px] lg:pl-20"
             >
               More features, profit and freedom - with dedicated support in
               everything.
             </AnimatedText>
 
-            <button className="mb-5 mt-4 px-5 py-2 text-xs font-medium rounded-md button button--moema button--text-upper lg:ml-20">
+            <button  className="mb-5 mt-4 px-5 py-2 text-xs font-medium rounded-md button button--moema button--text-upper lg:ml-20">
               Create an account
             </button>
+            
           </div>
           <div className="basis-6/12 ">
           
