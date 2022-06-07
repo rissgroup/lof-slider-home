@@ -6,7 +6,7 @@ import Script from "next/script";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
-export default function bec2() {
+export default function bec() {
   let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
@@ -36,7 +36,7 @@ export default function bec2() {
                   interval={0.06}
                   duration={0.8}
                   tag="p"
-                  className="animated-paragraph text-4xl leading-10  md:text-2xl  mt-1 lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
+                  className="animated-paragraph text-4xl leading-10  md:text-2xl mt-1 lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
                   includeWhiteSpaces
                   threshold={0.1}
                   rootMargin="20%"
@@ -155,7 +155,7 @@ export default function bec2() {
       </Transition>
             </div>
             <div className="basis-6/12 pt-20 ">
-            <img src="/assets/be-slider/sec-2.png" alt="" />
+            <img src="/assets/be-slider/sec-1.png" alt="" />
             </div>
           </div>
         </section>
