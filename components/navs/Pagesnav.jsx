@@ -4,7 +4,8 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../public/assets/logo.png";
 import { Dialog } from '@headlessui/react'
-import {  useState } from 'react'
+import {  useState } from 'react';
+import Contactus from "../Contactus";
 
 import Image from "next/image";
 
@@ -82,7 +83,7 @@ export default function Example() {
 
 <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
-          <Transition.Child
+        <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
             enterFrom="opacity-0"
@@ -91,7 +92,7 @@ export default function Example() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-80" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
@@ -105,34 +106,22 @@ export default function Example() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
-                  {/* <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
-                  </Dialog.Title> */}
-                  <div className="mt-2">
-                  <form>
-                  <div className="mb-6">
-    <label htmlFor="Name" className="block mb-2 text-sm font-medium text-white">Name</label>
-    <input type="text" id="name" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white  " required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Email</label>
-    <input type="email" id="email" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white " placeholder="name@flowbite.com" required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Message</label>
-    <input type="text" id="message" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg block w-full p-2.5  dark:text-white " required />
-  </div>
-  
-  
-  <button type="submit" className="text-[#d8aaf8] bg-transparent border  border-[#d8aaf8]  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  ">Submit</button>
-</form>
-                  </div>
-
-                  
+                <Dialog.Panel className="w-[600px] max-w-2xl  transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
+                
+                <div className='float-right'>          <svg  onClick={closeModal} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#d8aaf8]  " viewBox="0 0 20 20" fill="currentColor">
+  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+</svg>
+      </div>
+               
+                
+                <div className='p-10'>
+                <div className='text-center ' >
+                  <h1 className='text-[#d8aaf8] text-2xl font-semibold my-5 mono-font'>Contact us</h1>
+                  <p className='text-white text-xs font-medium hind mb-5'>Got question? We’d love to hear from you. Send us a message and we’ll respond as soon as possible.</p>
+                </div>
+                <Contactus />
+                </div>
+               
                 </Dialog.Panel>
               </Transition.Child>
             </div>

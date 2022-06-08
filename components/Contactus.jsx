@@ -13,7 +13,7 @@ export default function Contactus() {
             <input
               type="text"
               id="name"
-              className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white  "
+              className="bg-transparent  border-b-2 borde-x-0 border-[#d8aaf8] text-white text-sm    block w-full p-2.5  dark:text-white  outline-none "
               required
             />
           </div>
@@ -27,8 +27,8 @@ export default function Contactus() {
             <input
               type="email"
               id="email"
-              className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white "
-              placeholder="name@flowbite.com"
+              className="bg-transparent border-b-2 border-[#d8aaf8] text-white text-sm   outline-none  block w-full p-2.5  dark:text-white "
+              
               required
             />
           </div>
@@ -42,17 +42,18 @@ export default function Contactus() {
             <input
               type="text"
               id="message"
-              className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg block w-full p-2.5  dark:text-white "
+              className="bg-transparent border-b-2 outline-none  border-[#d8aaf8] text-white text-sm  block w-full p-2.5  dark:text-white "
               required
             />
           </div>
-
+<div className="flex justify-center">
           <button
             type="submit"
             className="text-[#d8aaf8] bg-transparent border  border-[#d8aaf8]  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  "
           >
             Submit
           </button>
+          </div>
         </form>
       </div>
     </>
