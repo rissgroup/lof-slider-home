@@ -145,7 +145,7 @@ Fill the form below to be among the first content creators to be notified as soo
         </Dialog>
       </Transition>
             </div>
-            <div className="basis-6/12 pt-20 my-auto 2xl:mt-40">
+            <div className="basis-6/12 pt-10 my-auto 2xl:mt-40">
             <img src="/assets/be-slider/Images.png" alt="" />
             </div>
           </div>
