@@ -57,12 +57,12 @@ export default function Lofplatform() {
       </Head>
       <div className="bg-dark " id="Lof-platform">
         <div className="container-fluid ">
-          <div className=" text-white pt-28 md:pt-56 lg:pt-32 w-full mbl-resp-plat">
+          <div className=" text-white pt-48 md:pt-56 lg:pt-32 w-full mbl-resp-plat">
             <div className="col  text-center" >
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+              <p className="text-[12px] md:text-sm hidden md:block tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                 {/* Create a free account and start browsing content from the
                 hottest models around the world. We have made everything
                 extremely simple and there are no hidden terms.  */}

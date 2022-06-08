@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import Contactus from "../Contactus"
+import Contactus from "../Contactus";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 

@@ -117,8 +117,10 @@ function openModal() {
                 
                 <div className='p-10'>
                 <div className='text-center ' >
-                  <h1 className='text-[#d8aaf8] text-2xl font-semibold my-5 mono-font'>Contact us</h1>
-                  <p className='text-white text-xs font-medium hind mb-5'>Got question? We’d love to hear from you. Send us a message and we’ll respond as soon as possible.</p>
+                  
+                  <p className='text-white text-xs font-medium hind mb-5'>The LOF platform is in development! 
+Fill the form below to be among the first content creators to be notified as soon as we are ready to launch!
+</p>
                 </div>
                 <Contactus />
                 </div>

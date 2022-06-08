@@ -4,7 +4,8 @@ import React from "react";
 import AnimatedText from "react-animated-text-content";
 import Script from "next/script";
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { Fragment, useState } from 'react';
+import Contactus from "../components/Contactus";
 
 export default function Bec2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ export default function Bec2() {
                   interval={0.06}
                   duration={0.8}
                   tag="p"
-                  className="animated-paragraph text-4xl leading-10  md:text-2xl  mt-1 lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
+                  className="animated-paragraph text-4xl leading-10  md:text-2xl  mt-1 lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
                   includeWhiteSpaces
                   threshold={0.1}
                   rootMargin="20%"
@@ -55,7 +56,7 @@ export default function Bec2() {
                   interval={0.06}
                   duration={0.8}
                   tag="p"
-                  className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
+                  className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
                   includeWhiteSpaces
                   threshold={0.1}
                   rootMargin="20%"
@@ -72,7 +73,7 @@ export default function Bec2() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="md:leading-8 text-[15px] lg:pl-20"
+                className="md:leading-8 text-[18px] lg:pl-20"
               >
                 Create an account and we’ll get you started in no time!
               </AnimatedText>
@@ -85,18 +86,18 @@ export default function Bec2() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="md:leading-8 text-[14px] lg:pl-20"
+                className="md:leading-8 text-[17px] tracking-tight lg:pl-20"
               >
                 More features, profit and freedom - with dedicated support in
                 everything.
               </AnimatedText>
 
-              <button  onClick={openModal} className="mb-5 mt-4 px-5 py-2 text-xs font-medium rounded-md button button--moema button--text-upper lg:ml-20">
+              <button  onClick={openModal} className="mb-5 mt-4 px-5 py-2 text-sm font-medium rounded-md button button--moema button--text-upper lg:ml-20">
                 Create an account
               </button>
               <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
-          <Transition.Child
+        <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
             enterFrom="opacity-0"
@@ -105,7 +106,7 @@ export default function Bec2() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-80" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
@@ -119,34 +120,24 @@ export default function Bec2() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
-                  {/* <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
-                  </Dialog.Title> */}
-                  <div className="mt-2">
-                  <form>
-                  <div className="mb-6">
-    <label htmlFor="Name" className="block mb-2 text-sm font-medium text-white">Name</label>
-    <input type="text" id="name" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white  " required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Email</label>
-    <input type="email" id="email" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white " placeholder="name@flowbite.com" required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Message</label>
-    <input type="text" id="message" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg block w-full p-2.5  dark:text-white " required />
-  </div>
-  
-  
-  <button type="submit" className="text-[#d8aaf8] bg-transparent border  border-[#d8aaf8]  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  ">Submit</button>
-</form>
-                  </div>
-
+                <Dialog.Panel className="w-[600px] max-w-2xl  transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
+                
+                <div className='float-right'>          <svg  onClick={closeModal} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#d8aaf8]  " viewBox="0 0 20 20" fill="currentColor">
+  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+</svg>
+      </div>
+               
+                
+                <div className='p-10'>
+                <div className='text-center ' >
                   
+                  <p className='text-white text-xs font-medium hind mb-5'>The LOF platform is in development! 
+Fill the form below to be among the first content creators to be notified as soon as we are ready to launch!
+</p>
+                </div>
+                <Contactus />
+                </div>
+               
                 </Dialog.Panel>
               </Transition.Child>
             </div>
@@ -155,7 +146,7 @@ export default function Bec2() {
       </Transition>
             </div>
             <div className="basis-6/12 pt-20 ">
-            <img src="/assets/be-slider/sec-2.png" alt="" />
+            <img src="/assets/be-slider/model.png" alt="" />
             </div>
           </div>
         </section>
