@@ -55,19 +55,19 @@ export default function Pagesfooter() {
               <ul className="flex justify-center gap-6 text-sm font-medium text-white hind" >
                 
                   <Link href="/termandConditions" className='glow'>
-                    <a>Term and Condition</a>
+                    <a className='hover:text-[#d8aaf8]'>Term and Condition</a>
                   </Link>
                
                   <Link href="/privacy" className='glow'>
-                    <a>Privacy</a>
+                    <a className='hover:text-[#d8aaf8]'>Privacy</a>
                   </Link>
              
                   <Link href="/riskpolicy" className='glow'>
-                    <a>Risk Policy</a>
+                    <a className='hover:text-[#d8aaf8]'>Risk Policy</a>
                   </Link>
                 
                   <Link href="/" className='glow'>
-                    <a onClick={openModal}>Contact</a>
+                    <a onClick={openModal} className='hover:text-[#d8aaf8]'>Contact</a>
                   </Link>
                   <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
