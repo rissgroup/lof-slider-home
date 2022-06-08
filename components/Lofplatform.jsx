@@ -77,6 +77,7 @@ export default function Lofplatform() {
         slidesPerView={5}
         spaceBetween={30}
         centeredSlides={true}
+        
         // mousewheel={true}
         // centeredSlides
         slideToClickedSlide

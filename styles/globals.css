@@ -109,7 +109,7 @@ a {
   transition: all 0.2s ease-in;
 }
 .glow:hover{
-	color: #D8AAF8C4;
+	color: #d8aaf8;
 	/* text-shadow:0px 0px 30px #fff; */
 	-moz-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;

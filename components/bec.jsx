@@ -36,12 +36,12 @@ export default function Bec() {
                   interval={0.06}
                   duration={0.8}
                   tag="p"
-                  className="animated-paragraph text-4xl leading-10  md:text-2xl mt-1 lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
+                  className="animated-paragraph text-4xl leading-10  md:text-2xl mt-1 lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
                   includeWhiteSpaces
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Become A
+                  Become a
                 </AnimatedText>
                 <AnimatedText
                   type="words" // animate words or chars
@@ -55,12 +55,12 @@ export default function Bec() {
                   interval={0.06}
                   duration={0.8}
                   tag="p"
-                  className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-4xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
+                  className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
                   includeWhiteSpaces
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Creator
+                  creator
                 </AnimatedText>
               </div>
               <AnimatedText
@@ -72,7 +72,7 @@ export default function Bec() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="md:leading-8 text-[15px] lg:pl-20"
+                className="md:leading-8 text-[18px] lg:pl-20"
               >
                 Create an account and we’ll get you started in no time!
               </AnimatedText>
@@ -85,13 +85,13 @@ export default function Bec() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="md:leading-8 text-[14px] lg:pl-20"
+                className="md:leading-8 text-[17px] lg:pl-20"
               >
                 More features, profit and freedom - with dedicated support in
                 everything.
               </AnimatedText>
 
-              <button  onClick={openModal} className="mb-5 mt-4 px-5 py-2 text-xs font-medium rounded-md button button--moema button--text-upper lg:ml-20">
+              <button  onClick={openModal} className="mb-5 mt-4 px-5 py-2 text-sm font-medium rounded-md button button--moema button--text-upper lg:ml-20">
                 Create an account
               </button>
               <Transition appear show={isOpen} as={Fragment}>

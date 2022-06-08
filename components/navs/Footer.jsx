@@ -53,23 +53,23 @@ export default function Footer() {
             <div className="basis-2/4  ">
               <ul className=" gap-6 flex justify-center text-white text-sm font-medium hind " >
                 
-                  <Link href="/termandConditions" className='glow'>
-                    <a>Term and Condition</a>
+                  <Link href="/termandConditions" className='glow '>
+                    <a className='hover:text-[#d8aaf8]'>Term and Condition</a>
                   </Link>
                 
               
                   <Link href="/privacy" className='glow'>
-                    <a>Privacy</a>
+                    <a className='hover:text-[#d8aaf8]'>Privacy</a>
                   </Link>
               
                 
                   <Link href="/riskpolicy" className='glow'>
-                    <a>Risk Policy</a>
+                    <a className='hover:text-[#d8aaf8]'>Risk Policy</a>
                   </Link>
                 
             
                   <Link href="/" className='glow' >
-                    <a  onClick={openModal}>Contact</a>
+                    <a  onClick={openModal} className='hover:text-[#d8aaf8]'>Contact</a>
                   </Link>
                
               </ul>

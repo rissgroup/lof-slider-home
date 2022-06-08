@@ -7,7 +7,7 @@ export default function Faq() {
     <>
       <div className="h-screen" id="faq">
         <div className="container-fluid  ">
-          <div className="flex flex-col lg:flex-row  text-white pt-20 md:pt-32 2xl:pt-28 h-screen">
+          <div className="flex flex-col lg:flex-row  text-white pt-20  2xl:pt-20 h-screen">
             <div className=" basis-6/12 md:basis-0 lg:basis-6/12 ml-0 md:ml-40 lg:ml-0 2xl:ml-10 faq-bachi ">
               <div>
                 <AnimatedText
@@ -20,7 +20,7 @@ export default function Faq() {
                     ease: "ease",
                     scale: 1.06,
                   }}
-                  className="pop text-5xl flex align-middle  text-center lg:mt-36 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 lg:ml-8 md:ml-36"
+                  className="pop text-5xl flex align-middle  text-center lg:mt-52 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 lg:ml-8 md:ml-36"
                 >
                   FAQ
                 </AnimatedText>
