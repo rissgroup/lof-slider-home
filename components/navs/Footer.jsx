@@ -2,6 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import Contactus from "../Contactus"
 
 export default function Footer() {
   let [isOpen, setIsOpen] = useState(false)
@@ -68,14 +69,16 @@ export default function Footer() {
                   </Link>
                 
             
-                  <Link href="/" className='glow' >
-                    <a  onClick={openModal}>Contact</a>
+                  <Link href="/"  >
+                    <a className='glow' onClick={openModal}>Contact</a>
                   </Link>
                
               </ul>
+
+              {/* *************** pop start data ********* */}
               <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
-          <Transition.Child
+        <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
             enterFrom="opacity-0"
@@ -99,39 +102,29 @@ export default function Footer() {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
-                  {/* <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
-                  </Dialog.Title> */}
-                  <div className="mt-2">
-                  <form>
-                  <div className="mb-6">
-    <label htmlFor="Name" className="block mb-2 text-sm font-medium text-white">Name</label>
-    <input type="text" id="name" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white  " required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Email</label>
-    <input type="email" id="email" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg   block w-full p-2.5  dark:text-white " placeholder="name@flowbite.com" required />
-  </div>
-  <div className="mb-6">
-    <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Message</label>
-    <input type="text" id="message" className="bg-transparent border border-[#d8aaf8] text-white text-sm rounded-lg block w-full p-2.5  dark:text-white " required />
-  </div>
-  
-  
-  <button type="submit" className="text-[#d8aaf8] bg-transparent border  border-[#d8aaf8]  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  ">Submit</button>
-</form>
-                  </div>
-
-                  
+                
+                <div className='float-right'>          <svg  onClick={closeModal} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#d8aaf8]  " viewBox="0 0 20 20" fill="currentColor">
+  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+</svg>
+      </div>
+                
+                
+                
+                <Contactus />
+               
+               
                 </Dialog.Panel>
               </Transition.Child>
             </div>
           </div>
         </Dialog>
       </Transition>
+              {/* *************** pop End data ********* */}
+
+
+              
+
+
             </div>
             <div className="basis-1/4"></div>
           </div>
