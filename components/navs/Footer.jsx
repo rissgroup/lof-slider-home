@@ -88,7 +88,7 @@ export default function Footer() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-80" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
@@ -102,17 +102,21 @@ export default function Footer() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-[600px] max-w-2xl  transform overflow-hidden rounded-2xl card-bg p-6 text-left align-middle shadow-xl transition-all">
                 
                 <div className='float-right'>          <svg  onClick={closeModal} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#d8aaf8]  " viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
 </svg>
       </div>
-                
-                
-                
-                <Contactus />
                
+                
+                <div className='p-10'>
+                <div className='text-center ' >
+                  <h1 className='text-[#d8aaf8] text-2xl font-semibold my-5 mono-font'>Contact us</h1>
+                  <p className='text-white text-xs font-medium hind mb-5'>Got question? We’d love to hear from you. Send us a message and we’ll respond as soon as possible.</p>
+                </div>
+                <Contactus />
+                </div>
                
                 </Dialog.Panel>
               </Transition.Child>
