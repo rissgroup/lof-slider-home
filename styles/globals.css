@@ -211,8 +211,8 @@ a {
 	.swiper-full-mobile:before {
 	content: "";
 	/* width: 265px; */
-	width: 267px;
-	background: url(../public//assets/pl-slider/Silver-Frame.png);
+	width: 248px;
+	background: url(../public//assets/pl-slider/frame-png.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -307,7 +307,7 @@ a {
 	}
 	@media (min-width:1330px) and (max-width:1500px) {
 		.swiper-full-mobile:before{
-			width: 182px;
+			width: 169px;
 		}	
 	}
 

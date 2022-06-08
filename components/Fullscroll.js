@@ -19,7 +19,7 @@ import Bec from "./bec";
 import { Parallax, Pagination, Navigation, Mousewheel } from "swiper";
 import Footer from "./navs/Footer";
 // import Faq2 from "./Faq2";
-// import Bec2 from "./bec2";
+import Bec2 from "./bec2";
 // import Bec3 from "./bec3";
 // import { Head } from "next/document";
 
@@ -70,10 +70,10 @@ export default function Fullscroll() {
           
           <Bec/>
         </SwiperSlide>
-        {/* <SwiperSlide className="home-bg">
+        <SwiperSlide className="home-bg">
          
           <Bec2/>
-        </SwiperSlide> */}
+        </SwiperSlide>
         {/* <SwiperSlide className="home-bg">
          
           <Bec3/>

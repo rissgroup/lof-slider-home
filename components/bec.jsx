@@ -86,7 +86,7 @@ export default function Bec() {
                   ease: "ease",
                   scale: 1.06,
                 }}
-                className="md:leading-8 text-[17px] lg:pl-20"
+                className="md:leading-8 tracking-tight text-[17px] lg:pl-20"
               >
                 More features, profit and freedom - with dedicated support in
                 everything.
@@ -130,8 +130,10 @@ export default function Bec() {
                 
                 <div className='p-10'>
                 <div className='text-center ' >
-                  <h1 className='text-[#d8aaf8] text-2xl font-semibold my-5 mono-font'>Contact us</h1>
-                  <p className='text-white text-xs font-medium hind mb-5'>Got question? We’d love to hear from you. Send us a message and we’ll respond as soon as possible.</p>
+                  
+                  <p className='text-white text-xs font-medium hind mb-5'>The LOF platform is in development! 
+Fill the form below to be among the first content creators to be notified as soon as we are ready to launch!
+</p>
                 </div>
                 <Contactus />
                 </div>
@@ -143,8 +145,8 @@ export default function Bec() {
         </Dialog>
       </Transition>
             </div>
-            <div className="basis-6/12 pt-20 ">
-            <img src="/assets/be-slider/sec-1.png" alt="" />
+            <div className="basis-6/12 pt-20 my-auto 2xl:mt-40">
+            <img src="/assets/be-slider/Images.png" alt="" />
             </div>
           </div>
         </section>
