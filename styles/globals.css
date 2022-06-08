@@ -96,7 +96,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999999;
+    z-index: 9;
     color: #fff;
     -webkit-transition: all 0.7s;
     -o-transition: all 0.7s;
